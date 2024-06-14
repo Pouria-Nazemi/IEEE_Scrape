@@ -54,13 +54,16 @@ def extract_article_details(article_link):
     WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, authors_arrow_down_xpath))).click()
     authors = WebDriverWait(driver, 25).until(EC.visibility_of_all_elements_located((By.CLASS_NAME, 'authors-accordion-container')))
 
+    authors_list = []
     for i in range(len(authors)):
         author_name_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[1]/div[2]/div[' + str(i+1) + ']/xpl-author-item/div/div[1]/div/div[1]/a/span'
         author_name = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, author_name_xpath))).text
 
         author_from_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[1]/div[2]/div[' + str(i+1) + ']/xpl-author-item/div/div[1]/div/div[2]/div'
         author_from = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, author_from_xpath))).text
-
+        authors_list.append(
+            {'name': author_name, 'from': author_from}
+        )
         print('author name: ' + author_name + ' from: ' + author_from)
 
     keywords_arrow_down_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[5]/div[1]/div/i'
@@ -68,17 +71,31 @@ def extract_article_details(article_link):
     ieee_keywords = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[5]/div[2]/xpl-document-keyword-list/section/div/ul/li[1]/ul')))
 
     keywords = ieee_keywords.find_elements(By.CLASS_NAME, 'stats-keywords-list-item')
+    ieee_keywords_list = []
     for keyword in keywords:
+        ieee_keywords_list.append(keyword.text)
         print(keyword.text)
 
     author_keywords = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[5]/div[2]/xpl-document-keyword-list/section/div/ul/li[3]/ul')))
     keywords = author_keywords.find_elements(By.CLASS_NAME, 'stats-keywords-list-item')
+    author_keywords_list = []
     for keyword in keywords:
+        author_keywords_list.append(keyword.text)
         print(keyword.text)
 
     return {
-        "title": title,
-        "abstract": abstract,
+        'title': title,
+        'Cites in Papers': int(cites_papers),
+        'Cites in Patent': int(cites_patents),
+        'Full Text Views":': int(full_views),
+        'Publisher': publisher,
+        'DOI': doi,
+        'Date of Publication': date_publish,
+        'abstract': abstract,
+        'Published in': published_in,
+        'Authors': authors_list,
+        'IEEE Keywords': ieee_keywords_list,
+        'Author Keywords': author_keywords_list
     }
 
 
@@ -116,6 +133,7 @@ def scrape_ieee_xplore(driver):
             print(article_link)
             article_details = extract_article_details(article_link)
             if article_details:
+                print(article_details)
                 articles_data.append(article_details)
             time.sleep(1)
 
