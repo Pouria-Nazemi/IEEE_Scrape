@@ -10,27 +10,76 @@ import json
 
 def extract_article_details(article_link):
     driver = webdriver.Chrome()
-    try:
-        # print("Hello")
-        driver.get(article_link)
-        title_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/section[2]/div/xpl-document-header/section/div[2]/div/div/div[1]/div/div[1]/h1/span'
-        title = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, title_xpath))).text
-        print(title)
-        abstract_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/div/xpl-document-abstract/section/div[2]/div[1]/div/div/div'
-        abstract = WebDriverWait(driver, 25).until(
-            EC.visibility_of_element_located((By.XPATH, abstract_xpath))).text
-        print(abstract)
-        #TODO add more data
-        return {
-            "title": title,
-            "abstract": abstract,
-        }
-    except Exception as e:
-        print(f"Error article page: {e}")
-        return {}
+    # print("Hello")
+    driver.get(article_link)
 
-    finally:
-        driver.quit()
+    title_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/section[2]/div/xpl-document-header/section/div[2]/div/div/div[1]/div/div[1]/h1/span'
+    title = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, title_xpath))).text
+    print('title: ' + title)
+
+    # TODO Number of Pages
+
+    metrics = WebDriverWait(driver, 25).until(EC.visibility_of_all_elements_located((By.CLASS_NAME, 'document-banner-metric-count')))
+    
+    cites_papers = metrics[0].text
+    print('cites_papers: ' + str(cites_papers))
+
+    cites_patents = metrics[1].text
+    print('cites_patents: ' + cites_patents)
+
+    full_views = metrics[2].text
+    print('full_views: ' + full_views)
+
+    publisher_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/section[2]/div/xpl-document-header/section/div[2]/div/div/div[1]/div/div[1]/div/div[1]/xpl-publisher/span/span/span/span[2]'
+    publisher = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, publisher_xpath))).text
+    print('publisher: ' + publisher)
+
+    doi_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/div/xpl-document-abstract/section/div[2]/div[3]/div[2]/div[1]/a'
+    doi = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, doi_xpath))).text
+    print('doi: ' + doi)
+
+    date_publish = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.CLASS_NAME, 'doc-abstract-confdate'))).text
+    date_publish = date_publish[date_publish.index(':')+1:].strip()
+    print('date_publish: ' + date_publish)
+
+    abstract_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/div/xpl-document-abstract/section/div[2]/div[1]/div/div/div'
+    abstract = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, abstract_xpath))).text
+    print('abstract: ' + abstract)
+
+    published_in_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/div/xpl-document-abstract/section/div[2]/div[2]/a'
+    published_in = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, published_in_xpath))).text
+    print('published_in: ' + published_in)
+
+    authors_arrow_down_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[1]/div/div/i'
+    WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, authors_arrow_down_xpath))).click()
+    authors = WebDriverWait(driver, 25).until(EC.visibility_of_all_elements_located((By.CLASS_NAME, 'authors-accordion-container')))
+
+    for i in range(len(authors)):
+        author_name_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[1]/div[2]/div[' + str(i+1) + ']/xpl-author-item/div/div[1]/div/div[1]/a/span'
+        author_name = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, author_name_xpath))).text
+
+        author_from_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[1]/div[2]/div[' + str(i+1) + ']/xpl-author-item/div/div[1]/div/div[2]/div'
+        author_from = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, author_from_xpath))).text
+
+        print('author name: ' + author_name + ' from: ' + author_from)
+
+    keywords_arrow_down_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[5]/div[1]/div/i'
+    WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, keywords_arrow_down_xpath))).click()
+    ieee_keywords = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[5]/div[2]/xpl-document-keyword-list/section/div/ul/li[1]/ul')))
+
+    keywords = ieee_keywords.find_elements(By.CLASS_NAME, 'stats-keywords-list-item')
+    for keyword in keywords:
+        print(keyword.text)
+
+    author_keywords = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[5]/div[2]/xpl-document-keyword-list/section/div/ul/li[3]/ul')))
+    keywords = author_keywords.find_elements(By.CLASS_NAME, 'stats-keywords-list-item')
+    for keyword in keywords:
+        print(keyword.text)
+
+    return {
+        "title": title,
+        "abstract": abstract,
+    }
 
 
 def scrape_ieee_xplore(driver):
