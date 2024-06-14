@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
 import time
 import json
 
@@ -12,17 +13,17 @@ def extract_article_details(article_link):
     driver = webdriver.Chrome()
     driver.get(article_link)
 
-    try:
-        accept_button_xpath = '/html/body/div[1]/div[2]/div[2]/button[2]'
-        WebDriverWait(driver, 7).until(EC.visibility_of_element_located((By.XPATH, accept_button_xpath))).click()
-    except:
-        pass
+    # try:
+    #     accept_button_xpath = '/html/body/div[1]/div[2]/div[2]/button[2]'
+    #     WebDriverWait(driver, 7).until(EC.visibility_of_element_located((By.XPATH, accept_button_xpath))).click()
+    # except:
+    #     pass
 
-    try:
-        close_button_xpath = '/html/body/div[1]/div[2]/div[2]/button'
-        WebDriverWait(driver, 7).until(EC.visibility_of_element_located((By.XPATH, close_button_xpath))).click()
-    except:
-        pass
+    # try:
+    #     close_button_xpath = '/html/body/div[1]/div[2]/div[2]/button'
+    #     WebDriverWait(driver, 7).until(EC.visibility_of_element_located((By.XPATH, close_button_xpath))).click()
+    # except:
+    #     pass
 
     title = ''
     pages = 0
@@ -156,8 +157,8 @@ def scrape_ieee_xplore(driver):
 
     driver.get("https://ieeexplore.ieee.org/Xplore/home.jsp")
 
-    accept_button_xpath = '/html/body/div[1]/div[2]/div[2]/button[2]'
-    WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, accept_button_xpath))).click()
+    # accept_button_xpath = '/html/body/div[1]/div[2]/div[2]/button[2]'
+    # WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, accept_button_xpath))).click()
     
     search_bar_xpath = "/html/body/div[5]/div/div/div[3]/div/xpl-root/header/xpl-header/div/div[2]/div[2]/xpl-search-bar-migr/div/form/div[2]/div/div[1]/xpl-typeahead-migr/div/input"
     search_bar = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, search_bar_xpath)))
