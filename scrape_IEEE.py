@@ -49,7 +49,7 @@ def extract_article_details(article_link):
     # TODO Number of Pages
 
     try:
-        metrics = WebDriverWait(driver, 25).until(EC.visibility_of_all_elements_located((By.CLASS_NAME, 'document-banner-metric-count')))
+        metrics = WebDriverWait(driver, 5).until(EC.visibility_of_all_elements_located((By.CLASS_NAME, 'document-banner-metric-count')))
         
         cites_papers = metrics[0].text
         print('cites_papers: ' + str(cites_papers))
@@ -64,20 +64,20 @@ def extract_article_details(article_link):
 
     try:
         publisher_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/section[2]/div/xpl-document-header/section/div[2]/div/div/div[1]/div/div[1]/div/div[1]/xpl-publisher/span/span/span/span[2]'
-        publisher = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, publisher_xpath))).text
+        publisher = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, publisher_xpath))).text
         print('publisher: ' + publisher)
     except:
         pass
 
     try:
         doi_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/div/xpl-document-abstract/section/div[2]/div[3]/div[2]/div[1]/a'
-        doi = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, doi_xpath))).text
+        doi = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, doi_xpath))).text
         print('doi: ' + doi)
     except:
         pass
 
     try:
-        date_publish = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.CLASS_NAME, 'doc-abstract-confdate'))).text
+        date_publish = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.CLASS_NAME, 'doc-abstract-confdate'))).text
         date_publish = date_publish[date_publish.index(':')+1:].strip()
         print('date_publish: ' + date_publish)
     except:
@@ -85,29 +85,29 @@ def extract_article_details(article_link):
 
     try:
         abstract_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/div/xpl-document-abstract/section/div[2]/div[1]/div/div/div'
-        abstract = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, abstract_xpath))).text
+        abstract = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, abstract_xpath))).text
         print('abstract: ' + abstract)
     except:
         pass
 
     try:
         published_in_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/div/xpl-document-abstract/section/div[2]/div[2]/a'
-        published_in = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, published_in_xpath))).text
+        published_in = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, published_in_xpath))).text
         print('published_in: ' + published_in)
     except:
         pass
 
     try:
         authors_arrow_down_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[1]/div/div/i'
-        WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, authors_arrow_down_xpath))).click()
-        authors = WebDriverWait(driver, 25).until(EC.visibility_of_all_elements_located((By.CLASS_NAME, 'authors-accordion-container')))
+        WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, authors_arrow_down_xpath))).click()
+        authors = WebDriverWait(driver, 5).until(EC.visibility_of_all_elements_located((By.CLASS_NAME, 'authors-accordion-container')))
 
         for i in range(len(authors)):
             author_name_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[1]/div[2]/div[' + str(i+1) + ']/xpl-author-item/div/div[1]/div/div[1]/a/span'
-            author_name = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, author_name_xpath))).text
+            author_name = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, author_name_xpath))).text
 
             author_from_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[1]/div[2]/div[' + str(i+1) + ']/xpl-author-item/div/div[1]/div/div[2]/div'
-            author_from = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, author_from_xpath))).text
+            author_from = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, author_from_xpath))).text
             authors_list.append(
                 {'name': author_name, 'from': author_from}
             )
@@ -117,15 +117,15 @@ def extract_article_details(article_link):
 
     try:
         keywords_arrow_down_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[5]/div[1]/div/i'
-        WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, keywords_arrow_down_xpath))).click()
-        ieee_keywords = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[5]/div[2]/xpl-document-keyword-list/section/div/ul/li[1]/ul')))
+        WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, keywords_arrow_down_xpath))).click()
+        ieee_keywords = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[5]/div[2]/xpl-document-keyword-list/section/div/ul/li[1]/ul')))
 
         keywords = ieee_keywords.find_elements(By.CLASS_NAME, 'stats-keywords-list-item')
         for keyword in keywords:
             ieee_keywords_list.append(keyword.text)
             print(keyword.text)
 
-        author_keywords = WebDriverWait(driver, 25).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[5]/div[2]/xpl-document-keyword-list/section/div/ul/li[3]/ul')))
+        author_keywords = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[5]/div[2]/xpl-document-keyword-list/section/div/ul/li[3]/ul')))
         keywords = author_keywords.find_elements(By.CLASS_NAME, 'stats-keywords-list-item')
         for keyword in keywords:
             author_keywords_list.append(keyword.text)
@@ -140,7 +140,7 @@ def extract_article_details(article_link):
         'pages': int(pages),
         'Cites in Papers': int(cites_papers),
         'Cites in Patent': int(cites_patents),
-        'Full Text Views":': int(full_views),
+        'Full Text Views': int(full_views),
         'Publisher': publisher,
         'DOI': doi,
         'Date of Publication': date_publish,
@@ -178,7 +178,7 @@ def scrape_ieee_xplore(driver):
     )
     apply_filter_button.click()
 
-    for i in range(1, 3):
+    for i in range(1, 6):
         print(f"Processing page {i}")
 
         article_elements = WebDriverWait(driver, 35).until(
