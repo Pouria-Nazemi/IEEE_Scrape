@@ -66,19 +66,53 @@
         "Author Keywords": []
     },
     {
-        "title": "",
+        "title": "ETH Relay: A Cost-efficient Relay for Ethereum-based Blockchains",
         "pages": 0,
         "Cites in Papers": 52,
         "Cites in Patent": 5627,
         "Full Text Views": 0,
-        "Publisher": "",
-        "DOI": "",
+        "Publisher": "IEEE",
+        "DOI": "10.1109/Blockchain50366.2020.00032",
         "Date of Publication": "02-06 November 2020",
-        "abstract": "",
-        "Published in": "",
-        "Authors": [],
-        "IEEE Keywords": [],
-        "Author Keywords": []
+        "abstract": "Current blockchain relay schemes require the immediate validation of each relayed block header by the destination blockchain. This leads to high operating cost when deploying these relays between Ethereum-based blockchains where validating block headers on-chain is computationally expensive.To overcome these limitations, we introduce a novel relay scheme that employs a validation-on-demand pattern combined with economic incentives to reduce the cost of operating a relay between Ethereum-based blockchains by up to 92%. With this relay scheme, decentralized interoperability between blockchains like Ethereum and Ethereum Classic becomes feasible.",
+        "Published in": "2020 IEEE International Conference on Blockchain (Blockchain)",
+        "Authors": [
+            {
+                "name": "Philipp Frauenthaler",
+                "from": "Christian Doppler Laboratory for Blockchain Technologies for the Internet of Things Distributed Systems Group, TU, Wien, Vienna, Austria"
+            },
+            {
+                "name": "Marten Sigwart",
+                "from": "Christian Doppler Laboratory for Blockchain Technologies for the Internet of Things Distributed Systems Group, TU, Wien, Vienna, Austria"
+            },
+            {
+                "name": "Christof Spanring",
+                "from": "Pantos GmbH, Vienna, Austria"
+            },
+            {
+                "name": "Michael Sober",
+                "from": "Christian Doppler Laboratory for Blockchain Technologies for the Internet of Things Distributed Systems Group, TU, Wien, Vienna, Austria"
+            },
+            {
+                "name": "Stefan Schulte",
+                "from": "Christian Doppler Laboratory for Blockchain Technologies for the Internet of Things Distributed Systems Group, TU, Wien, Vienna, Austria"
+            }
+        ],
+        "IEEE Keywords": [
+            "Economics",
+            "Conferences",
+            "Blockchain",
+            "Reliability",
+            "Relays",
+            "Optimization",
+            "Interoperability"
+        ],
+        "Author Keywords": [
+            "blockchain interoperability",
+            "cross-blockchain communication",
+            "blockchain relay",
+            "simplified payment verification"
+        ]
     },
     {
         "title": "A Lightweight Blockchain-Based Privacy Protection for Smart Surveillance at the Edge",
@@ -201,19 +235,56 @@
         ]
     },
     {
-        "title": "",
+        "title": "A High Performance Blockchain Platform for Intelligent Devices",
         "pages": 0,
         "Cites in Papers": 54,
         "Cites in Patent": 8880,
         "Full Text Views": 0,
-        "Publisher": "",
-        "DOI": "",
+        "Publisher": "IEEE",
+        "DOI": "10.1109/HOTICN.2018.8606017",
         "Date of Publication": "15-17 August 2018",
-        "abstract": "",
-        "Published in": "",
-        "Authors": [],
-        "IEEE Keywords": [],
-        "Author Keywords": []
+        "abstract": "In the area of IoT (Internet of Things), more and more intelligent devices are being connected to the Internet. These intelligent devices have been producing a huge amout of useful data over time, however there is still a lack of a platform which can efficiently transfer and utilize the value of the massive IoT data. Blockchain is able to transfer value with a relative low cost, which makes it possible for the data from smart devices to create economic value. This work of this paper is to design a high performance blockchain platform, using technologies such as distributed network architecture, intelligent devices node mapping, as well as PBFT-DPOC consensus algorithm to realize the decentralized autonomy of intelligent devices.",
+        "Published in": "2018 1st IEEE International Conference on Hot Information-Centric Networking (HotICN)",
+        "Authors": [
+            {
+                "name": "Shitang Yu",
+                "from": "Department of Research and Development, GRG Banking Blockchain, Guang Zhou, China"
+            },
+            {
+                "name": "Kun Lv",
+                "from": "Department of Research and Development, GRG Banking Blockchain, Guang Zhou, China"
+            },
+            {
+                "name": "Zhou Shao",
+                "from": "China Computer Federation, Technical Committee of Blockchain"
+            },
+            {
+                "name": "Yingcheng Guo",
+                "from": "Department of Research and Development, GRG Banking Blockchain, Guang Zhou, China"
+            },
+            {
+                "name": "Jun Zou",
+                "from": "Department of Research and Development, GRG Banking Blockchain, Guang Zhou, China"
+            },
+            {
+                "name": "Bo Zhang",
+                "from": "Department of Research and Development, GRG Banking Blockchain, Guang Zhou, China"
+            }
+        ],
+        "IEEE Keywords": [
+            "Blockchain",
+            "Performance evaluation",
+            "Consensus algorithm",
+            "Maintenance engineering",
+            "Internet of Things",
+            "Computer architecture",
+            "Hardware"
+        ],
+        "Author Keywords": [
+            "Blockchain",
+            "Intelligent Device Nodes Mapping",
+            "PBFT-DPOC"
+        ]
     },
     {
         "title": "Research and Design of Electric Power Engineering Project Management System Bsed on Blockchain Technology",
@@ -304,19 +375,37 @@
         ]
     },
     {
-        "title": "",
+        "title": "Blockchain-Based Software Systems: Taxonomy Development",
         "pages": 0,
         "Cites in Papers": 2,
         "Cites in Patent": 467,
         "Full Text Views": 0,
-        "Publisher": "",
-        "DOI": "",
+        "Publisher": "IEEE",
+        "DOI": "10.1109/Blockchain53845.2021.00075",
         "Date of Publication": "06-08 December 2021",
-        "abstract": "",
-        "Published in": "",
-        "Authors": [],
-        "IEEE Keywords": [],
-        "Author Keywords": []
+        "abstract": "At an era of new emerging technologies, and spotting lights to blockchain technology specifically; many promises take place. Blockchain has attracted many researchers and practitioners from various professions and disciplines, due to the powerful characteristics behind adopting such technology. And in order to formulate a better understanding of it, many researchers are interested in classifying the Blockchain-Based Software Systems (BBSSs). Unfortunately, none of the available taxonomies in the literature considers the various Software Engineering (SWE) aspects for building a BBSS. A blockchain subject matter expert (SME) may absorb a specific aspect understanding from each of the related taxonomies, and in order to have a complete understanding of the various options available for building a BBSS, they will have to flip from a resource to another in order to collect the scattered information they need. So, this paper aims to assist the blockchain SMEs to articulate a comprehensive understanding of the various and most recent concepts and design decisions available, in order to implement or propose a BBSS solution. The taxonomy is derived from the fundamental knowledge and the major SWE aspects which a BBSS implementer or researcher has to consider, and thus is not biased to a specific SWE aspect.",
+        "Published in": "2021 IEEE International Conference on Blockchain (Blockchain)",
+        "Authors": [
+            {
+                "name": "Lamia Alashaikh",
+                "from": "College of Computer and Information Sciences, King Saud University, Riyadh, Saudi Arabia"
+            }
+        ],
+        "IEEE Keywords": [
+            "Conferences",
+            "Taxonomy",
+            "Buildings",
+            "Software systems",
+            "Blockchains",
+            "Software engineering"
+        ],
+        "Author Keywords": [
+            "blockchain",
+            "Blockchain-Based Software System (BBSS)",
+            "taxonomy",
+            "Subject Matter Expert (SME)",
+            "Software Engineering (SWE) aspect"
+        ]
     },
     {
         "title": "Security Assessment Model for Blockchain Software and Hardware Fusion Device Based on Decision Tree Algorithm",
@@ -968,7 +1057,12 @@
         "Date of Publication": "23-25 April 2021",
         "abstract": "Blockchain has many technical characteristics such as distributed, traceable, trustless, difficult to tamper with, and multi-centralized. Blockchain can effectively establish a financial asset management system based on digital technology, automatically docking assets of different industrial forms into a digital financial framework. It can realize the automatic mapping and circulation of assets under the chain, and create an economic network integrating financial asset digitization and asset management. Blockchain technology has attracted much attention, but in its development process, there are still problems such as inconsistent standards, chaotic derivative markets, threats to security, and difficulty in supervision, so that the current blockchain and physical business docking products that can be implemented in the market less. This paper analyzes the application cases of digital financial asset transactions based on blockchain technology, studies the current pain points of blockchain technology in various digital financial asset transaction industries, and provides corresponding solutions.",
         "Published in": "2021 International Conference on Computer, Blockchain and Financial Development (CBFD)",
-        "Authors": [],
+        "Authors": [
+            {
+                "name": "Yuhan Zhu",
+                "from": "King's Business School, King's College London, London, England"
+            }
+        ],
         "IEEE Keywords": [
             "Technological innovation",
             "Pain",
@@ -1293,17 +1387,34 @@
         ]
     },
     {
-        "title": "",
+        "title": "Analysis of Blockchain Technology and its Application in the Field of Radio Monitoring",
         "pages": 0,
         "Cites in Papers": 259,
         "Cites in Patent": 0,
         "Full Text Views": 0,
-        "Publisher": "",
-        "DOI": "",
+        "Publisher": "IEEE",
+        "DOI": "10.1109/CBFD52659.2021.00097",
         "Date of Publication": "23-25 April 2021",
-        "abstract": "",
-        "Published in": "",
-        "Authors": [],
+        "abstract": "With the increasing rise and rapid development of blockchain technology, the advantages of decentralized, distributed consensus and secure, tamper-evident and reliable database of blockchain technology will become increasingly prominent. Facing the radio monitoring system that generates massive data in the field of radio monitoring, by using blockchain timestamp, distributed consensus and data encryption, it will effectively solve the problem of centralized system of radio monitoring, reduce the construction cost of radio monitoring system, improve monitoring efficiency and ensure data security.",
+        "Published in": "2021 International Conference on Computer, Blockchain and Financial Development (CBFD)",
+        "Authors": [
+            {
+                "name": "Xiaoying Ma",
+                "from": "Radio Monitoring Office, The State Radio Monitoring Center, Beijing, China"
+            },
+            {
+                "name": "Meiying Wei",
+                "from": "Radio Monitoring Office, The State Radio Monitoring Center, Beijing, China"
+            },
+            {
+                "name": "Xiaoli Li",
+                "from": "Yunnan Monitoring Station, The State Radio Monitoring Center, Kunming, China"
+            },
+            {
+                "name": "Xiaofei Zhang",
+                "from": "Radio Monitoring Office, The State Radio Monitoring Center, Beijing, China"
+            }
+        ],
         "IEEE Keywords": [],
         "Author Keywords": []
     },
@@ -1729,17 +1840,34 @@
         ]
     },
     {
-        "title": "",
+        "title": "Points Transaction Mechanisms Based on Blockchain Technology",
         "pages": 0,
         "Cites in Papers": 103,
         "Cites in Patent": 0,
         "Full Text Views": 0,
-        "Publisher": "",
-        "DOI": "",
+        "Publisher": "IEEE",
+        "DOI": "10.1109/CCSB58128.2022.00018",
         "Date of Publication": "28-30 October 2022",
-        "abstract": "",
-        "Published in": "",
-        "Authors": [],
+        "abstract": "The Loyalty program is an effective incentive measure for companies to maintain individual users. However, the traditional loyalty program has problems such as inability to interact across platforms and lack of credibility. The points alliance is an effective measure to solve the above problems. By formulating the corresponding points exchange agreement within the alliance, the barriers of data interaction between different platforms can be broken. Blockchain technology has the characteristics of decentralization and distribution, which is consistent with the technical needs of the points alliance. Based on the research of decentralized exchange, this paper designs a blockchain-based points trading mechanism, and explains the details of points trading and the implementation of order matching. The mechanism proposed in this paper helps to increase the probability of successful exchange of points, thus increasing the use value of loyalty points.",
+        "Published in": "2022 2nd International Conference on Computer Science and Blockchain (CCSB)",
+        "Authors": [
+            {
+                "name": "Jinfei Wu",
+                "from": "College of Information Science and Engineering, Huaqiao University, Xiamen, China"
+            },
+            {
+                "name": "Jiayuan Zhang",
+                "from": "College of Information Science and Engineering, Huaqiao University, Xiamen, China"
+            },
+            {
+                "name": "Rongxin Guo",
+                "from": "College of Engineering, Huaqiao University, Quanzhou, China"
+            },
+            {
+                "name": "Wanting Tang",
+                "from": "College of Information Science and Engineering, Huaqiao University, Xiamen, China"
+            }
+        ],
         "IEEE Keywords": [],
         "Author Keywords": []
     },
@@ -1830,17 +1958,22 @@
         ]
     },
     {
-        "title": "",
+        "title": "Review of Modern Blockchain Platforms",
         "pages": 0,
         "Cites in Papers": 218,
         "Cites in Patent": 0,
         "Full Text Views": 0,
-        "Publisher": "",
-        "DOI": "",
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ITQMIS53292.2021.9642822",
         "Date of Publication": "06-10 September 2021",
-        "abstract": "",
-        "Published in": "",
-        "Authors": [],
+        "abstract": "Developers who are seriously thinking about developing products that use blockchain need to be serious about choosing a blockchain platform. Blockchain allows you to create a link between manufacturing, logistics and finance. This means that the choice of a blockchain platform must meet a number of criteria, one of which is security. The paper discusses online and local blockchain platforms, as well as the types of blockchain and consensus algorithms that are used in modern blockchain platforms. The paper compares modern blockchain platforms in terms of security, usability and ease of use.",
+        "Published in": "2021 International Conference on Quality Management, Transport and Information Security, Information Technologies (IT&QM&IS)",
+        "Authors": [
+            {
+                "name": "Daria A. Snegireva",
+                "from": "School of Electrical Engineering and Computer Science, South Ural State University (national research university), Chelyabinsk, Russia"
+            }
+        ],
         "IEEE Keywords": [],
         "Author Keywords": []
     },
@@ -1930,9 +2063,35 @@
         "Date of Publication": "14-17 July 2019",
         "abstract": "Due to their specific features, blockchains have become popular in recent years. Blockchains are layered systems where security is a critical factor for their success. The main focus of this work is to systematize knowledge about security and privacy issues of blockchains. To this end, we propose a security reference architecture based on models that demonstrate the stacked hierarchy of various threats as well as threat-risk assessment using ISO/IEC 15408. In contrast to the previous surveys [23], [88], [11], we focus on the categorization of security vulnerabilities based on their origins and using the proposed architecture we present existing prevention and mitigation techniques. The scope of our work mainly covers aspects related to the nature of blockchains, while we mention operational security issues and countermeasures only tangentially.",
         "Published in": "2019 IEEE International Conference on Blockchain (Blockchain)",
-        "Authors": [],
-        "IEEE Keywords": [],
-        "Author Keywords": []
+        "Authors": [
+            {
+                "name": "Ivan Homoliak",
+                "from": "Singapore University of Technology and Design"
+            },
+            {
+                "name": "Sarad Venugopalan",
+                "from": "Singapore University of Technology and Design"
+            },
+            {
+                "name": "Qingze Hum",
+                "from": "Singapore University of Technology and Design"
+            },
+            {
+                "name": "Pawel Szalachowski",
+                "from": "Singapore University of Technology and Design"
+            }
+        ],
+        "IEEE Keywords": [
+            "Peer-to-peer computing",
+            "Consensus protocol",
+            "Cryptography",
+            "Routing"
+        ],
+        "Author Keywords": [
+            "surveys and tutorials",
+            "blockchain",
+            "reference architecture"
+        ]
     },
     {
         "title": "A Proxy-Layer Approach to Secure Smart Contract Deployment on Private EVM-Based PoA Blockchains",
@@ -2131,7 +2290,20 @@
         "Date of Publication": "14-17 July 2019",
         "abstract": "Blockchain has recently emerged as an important tool that can enable critical distributed applications without requiring centralized trust. For example, public blockchains have been used to enable many different cryptocurrencies. Unfortunately, existing public blockchains and smart contracts deployed on them may disclose sensitive information. Although there is some ongoing work that leverage advanced cryptography to address some of these sensitive information leakage issues, they require significant changes to existing and popular blockchains such as Ethereum and are usually computationally expensive. On the other hand, private blockchains have been proposed to allow more efficient and privacy-preserving data sharing among pre-approved group of nodes/participants. Although private blockchains address some of the privacy challenges by allowing sensitive data to be only seen by the select group of participants, they do not allow public accountability of transactions since transactions are approved by known set of users, and cannot be accessed publicly. Given these observations, one natural question that arise is, can we leverage both public and private blockchain infrastructures to enable efficient, privacy enhancing and accountable applications? In this work, we try to address this challenge in the context of digital auctions. Mainly, we propose a novel hybrid blockchain architecture that combines private and public blockchains to allow sensitive bids to be opened on a private blockchain so that only the auctioneer can learn the bids, and no one else. At the same time, we leverage public blockchains to make the auction winner announcement, and payments accountable. Furthermore, using smart contracts deployed on public blockchain, we show how to incentivize truthful behavior among the auction participants. Our extensive empirical results show that this architecture is more efficient in terms of run time and monetary cost compared to pure public blockchain based aucti...",
         "Published in": "2019 IEEE International Conference on Blockchain (Blockchain)",
-        "Authors": [],
+        "Authors": [
+            {
+                "name": "Harsh Desai",
+                "from": "School of Computer Science, The University of Texas, Dallas"
+            },
+            {
+                "name": "Murat Kantarcioglu",
+                "from": "School of Computer Science, The University of Texas, Dallas"
+            },
+            {
+                "name": "Lalana Kagal",
+                "from": "Computer Science and Artificial Intelligence Lab, Massachusetts Institute of Technology"
+            }
+        ],
         "IEEE Keywords": [
             "Blockchain",
             "Smart contracts",
@@ -2223,6 +2395,38 @@
         "Author Keywords": []
     },
     {
+        "title": "A distributed ABAC access control scheme based on blockchain",
+        "pages": 0,
+        "Cites in Papers": 253,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/CCSB58128.2022.00011",
+        "Date of Publication": "28-30 October 2022",
+        "abstract": "The blockchain has the characteristics of decentralization, trustworthiness and difficult to tamper with. Combining the blockchain with access control can solve the problems such as single point of failure and opaque authority judgment in traditional centralized access control systems. The access control system of the system pays more attention to the framework design, ignoring the influence of the uncertainty of the entity's behavior after authentication on the blockchain network. Based on this, we propose a distributed access control system based on blockchain. Based on the ABAC model, the policy decision point, policy management point, and attribute authority are completed through smart contracts deployed by nodes in the blockchain network. The main function. The experimental results show that the scheme is feasible and effective, realizes decentralization, transparent authority judgment, and supports dynamic and fine-grained access control system.",
+        "Published in": "2022 2nd International Conference on Computer Science and Blockchain (CCSB)",
+        "Authors": [
+            {
+                "name": "Haichao Wang",
+                "from": "Information Engineering University"
+            },
+            {
+                "name": "Zhiyu Ren",
+                "from": "Information Engineering University"
+            },
+            {
+                "name": "Tianpeng Zhang",
+                "from": "Information Engineering University"
+            },
+            {
+                "name": "Qiuli Wang",
+                "from": "Information Engineering University"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
         "title": "BlockSIM: A practical simulation tool for optimal network design, stability and planning",
         "pages": 0,
         "Cites in Papers": 22,
@@ -2266,38 +2470,6 @@
             "Architecture",
             "Open source"
         ]
-    },
-    {
-        "title": "A distributed ABAC access control scheme based on blockchain",
-        "pages": 0,
-        "Cites in Papers": 253,
-        "Cites in Patent": 0,
-        "Full Text Views": 0,
-        "Publisher": "IEEE",
-        "DOI": "10.1109/CCSB58128.2022.00011",
-        "Date of Publication": "28-30 October 2022",
-        "abstract": "The blockchain has the characteristics of decentralization, trustworthiness and difficult to tamper with. Combining the blockchain with access control can solve the problems such as single point of failure and opaque authority judgment in traditional centralized access control systems. The access control system of the system pays more attention to the framework design, ignoring the influence of the uncertainty of the entity's behavior after authentication on the blockchain network. Based on this, we propose a distributed access control system based on blockchain. Based on the ABAC model, the policy decision point, policy management point, and attribute authority are completed through smart contracts deployed by nodes in the blockchain network. The main function. The experimental results show that the scheme is feasible and effective, realizes decentralization, transparent authority judgment, and supports dynamic and fine-grained access control system.",
-        "Published in": "2022 2nd International Conference on Computer Science and Blockchain (CCSB)",
-        "Authors": [
-            {
-                "name": "Haichao Wang",
-                "from": "Information Engineering University"
-            },
-            {
-                "name": "Zhiyu Ren",
-                "from": "Information Engineering University"
-            },
-            {
-                "name": "Tianpeng Zhang",
-                "from": "Information Engineering University"
-            },
-            {
-                "name": "Qiuli Wang",
-                "from": "Information Engineering University"
-            }
-        ],
-        "IEEE Keywords": [],
-        "Author Keywords": []
     },
     {
         "title": "Review of Blockchain Frameworks and Platforms",
@@ -2591,7 +2763,28 @@
         "Date of Publication": "14-17 July 2019",
         "abstract": "Industrial procurement processes are inefficient, expensive, and error-prone as they require the agreement of numerous participants, audit-proof documentation, and are characterized by a high number of manual tasks. Blockchain technology has the potential to counter these challenges by combining peer-to-peer networks, cryptography, and consensus algorithms. A blockchain is a decentralized database that stores transactions and data transparently, chronologically, and tamper-proof in a distributed network. In this paper, we present a blockchain-based industrial marketplace, where machines have an identity and account for selecting, ordering, and paying materials in an automated manner using smart contracts. This allows manufacturers with a low real-net-output-ratio, such as car manufacturers that depend on numerous suppliers, to optimize their purchasing processes. Using our case study, we demonstrate prototypical implementation of the decentralized marketplace and its applications in the area of industrial maintenance. Furthermore, we conducted a semi-structured interview with procurement and information technology experts from the automotive industry. The results indicate that our prototype offers a promising approach streamlining procurement processes within the next two to five years.",
         "Published in": "2019 IEEE International Conference on Blockchain (Blockchain)",
-        "Authors": [],
+        "Authors": [
+            {
+                "name": "Daniel Miehle",
+                "from": "Technical University of Munich, Germany"
+            },
+            {
+                "name": "Matthias M. Meyer",
+                "from": "Bundeswehr University Munich, Germany"
+            },
+            {
+                "name": "Andre Luckow",
+                "from": "Munich University of Applied Sciences, Germany"
+            },
+            {
+                "name": "Bernd Bruegge",
+                "from": "Technical University of Munich, Germany"
+            },
+            {
+                "name": "Michael Essig",
+                "from": "Bundeswehr University Munich, Germany"
+            }
+        ],
         "IEEE Keywords": [
             "Blockchain",
             "Procurement",
@@ -2611,17 +2804,46 @@
         ]
     },
     {
-        "title": "",
+        "title": "A Blockchain Based Fund Management System for Construction Projects - A Comprehensive Case Study in Xiong'an New Area China",
         "pages": 0,
         "Cites in Papers": 62,
         "Cites in Patent": 0,
         "Full Text Views": 0,
-        "Publisher": "",
-        "DOI": "",
+        "Publisher": "IEEE",
+        "DOI": "10.1109/SDS59856.2023.10329054",
         "Date of Publication": "23-25 October 2023",
-        "abstract": "",
-        "Published in": "",
-        "Authors": [],
+        "abstract": "As large-scale construction projects become increasingly complex, the use and integration of advanced technologies are being emphasized more and more. However, the construction industry often lags behind most industries in the application of digital technologies. In recent years, a decentralized, peer-to-peer blockchain technology has attracted widespread attention from academia and industry. This paper provides a solution that combines blockchain technology with construction project fund management. The system involves participants such as the owner's unit, construction companies, government departments, banks, etc., adopting the technical architecture of the \u201cXiong'an Blockchain Underlying System\u201d. The core business and key logic processing are all implemented through smart contracts, ensuring the transparency and traceability of the fund payment process. The goal of ensuring investment quality, standardizing investment behavior, and strengthening cost control is achieved through blockchain technology. The application of this system in the management of Xiong'an construction projects has verified that blockchain technology plays a significant positive role in strengthening fund management, enhancing fund supervision, and ensuring fund safety in the construction process of engineering projects. It helps to eliminate the common problems of multi-party trust and transparent supervision in the industry and can further improve the investment benefits of government investment projects and improve the management system and operation mechanism of investment projects.",
+        "Published in": "2023 Tenth International Conference on Software Defined Systems (SDS)",
+        "Authors": [
+            {
+                "name": "Wenlue Song",
+                "from": "School of Computer Science and Engineering, Beihang University, Beijing, China"
+            },
+            {
+                "name": "Hanyuan Wu",
+                "from": "Xiong'an Blockchain Lab, Xiong'an Intelligent City Innovation Federation, Xiong'an, New Area, China"
+            },
+            {
+                "name": "Hongwei Meng",
+                "from": "Xiong'an Blockchain Lab, Xiong'an Intelligent City Innovation Federation, Xiong'an, New Area, China"
+            },
+            {
+                "name": "Yifu Bian",
+                "from": "Xiong'an Blockchain Lab, Xiong'an Intelligent City Innovation Federation, Xiong'an, New Area, China"
+            },
+            {
+                "name": "Cong Tang",
+                "from": "Temi Tech ltd Beijing, Xiong'an Huoshu Tech ltd Hebei, Beijing, China"
+            },
+            {
+                "name": "Jiaqi Xi",
+                "from": "Beijing University of Technology, Beijing, China"
+            },
+            {
+                "name": "Haogang Zhu",
+                "from": "School of Computer Science and Engineering, Beihang University, Beijing, China"
+            }
+        ],
         "IEEE Keywords": [],
         "Author Keywords": []
     },
@@ -2668,17 +2890,30 @@
         ]
     },
     {
-        "title": "",
+        "title": "A Blockchain-based for Trustworthy Tourism Service Level Agreement",
         "pages": 0,
         "Cites in Papers": 50,
         "Cites in Patent": 0,
         "Full Text Views": 0,
-        "Publisher": "",
-        "DOI": "",
+        "Publisher": "IEEE",
+        "DOI": "10.1109/CCSB60789.2023.10398825",
         "Date of Publication": "17-19 November 2023",
-        "abstract": "",
-        "Published in": "",
-        "Authors": [],
+        "abstract": "The tourism industry is a new sector that stimulates consumer spending and drives economic growth, with the internet providing effective measures for its rapid development. Traditional online tourism service platforms, managed by a single entity, face trust barriers between different industries, hindering further development in tourism. The open and transparent nature of blockchain can effectively solve trust issues. However, existing solutions lack a study on the business processes of tourism services. The tourism industry still facing challenges such as cumbersome business processes, low coordination efficiency among stakeholders, and difficulties in service execution monitoring. Based on the above issues, this paper proposes a blockchain-based tourism service level agreement execution framework to establish a tourism service level agreement (TSLA) between tourists and service providers to realize the service provider's commitment to tourists. Furthermore, this paper designs a Tourism Service Level Agreement Smart Contract (TSLA-SC) based on oracle technology, stores the service execution process on the blockchain, tracks potential malicious behaviors of service providers, and sets corresponding reward and punishment measures to automate the TSLA execution process. Finally, experiments are conducted to test the cost and time expenses of TSLA-SC, with results indicating that the proposed solution can operate at lower costs, demonstrating good usability in terms of cost overhead.",
+        "Published in": "2023 3rd International Conference on Computer Science and Blockchain (CCSB)",
+        "Authors": [
+            {
+                "name": "Wanting Tang",
+                "from": "College of Information Science and Engineering, Huaqiao University, Xiamen, China"
+            },
+            {
+                "name": "Jiayuan Zhang",
+                "from": "College of Information Science and Engineering, Huaqiao University, Xiamen, China"
+            },
+            {
+                "name": "Rongxin Guo",
+                "from": "College of Engineering, Huaqiao University, Quanzhou, China"
+            }
+        ],
         "IEEE Keywords": [],
         "Author Keywords": []
     },
@@ -2816,34 +3051,95 @@
         ]
     },
     {
-        "title": "",
+        "title": "Enhancing Blockchain Traceability with DAG-Based Tokens",
         "pages": 0,
         "Cites in Papers": 15,
         "Cites in Patent": 1499,
         "Full Text Views": 0,
-        "Publisher": "",
-        "DOI": "",
+        "Publisher": "IEEE",
+        "DOI": "10.1109/Blockchain.2019.00036",
         "Date of Publication": "14-17 July 2019",
-        "abstract": "",
-        "Published in": "",
-        "Authors": [],
-        "IEEE Keywords": [],
-        "Author Keywords": []
+        "abstract": "Blockchain technology has positively impacted traceability across various industries such as logistics and shipping. By overcoming the problem of data silos among organizations and concentration of authority, this innovative approach allows a decentralized and tamper-resistant ledger to be built. On the other hand, the use of non-fungible tokens, a new concept for projecting digital and physical goods on a blockchain, is expected to be able to represent complicated operations in traceability systems. However, the existing token design lacks an efficient model for retrieval of past histories. The most popular way to retrieve past information on tokens is to use blockchain explorers, which are centralized trusted parties. Otherwise, so far there is only a naive way to examine all block headers, and it takes a vast amount of time. Our preliminary study shows that the processing time for retrieving all histories of 1,030 tokens on the Ethereum mainnet takes approximately 57 minutes. We propose a new token design based on a directed acyclic graph (DAG) that allows token histories to be efficiently explored without examining the whole blockchain. The model associates each state of the token from past to latest and covers expressions of relationships between tokens, such as merge and split. Our implementation and evaluation reveal that the DAG-based token design significantly improves the efficiency of exploring token transfer histories. The results show that our method can complete the exploration for 1,030 tokens in a matter of seconds and maintains performance over the long term even if the blockchain grows.",
+        "Published in": "2019 IEEE International Conference on Blockchain (Blockchain)",
+        "Authors": [
+            {
+                "name": "Hiroki Watanabe",
+                "from": "NTT Service Evolution Labs., NTT Corp."
+            },
+            {
+                "name": "Tatsuro Ishida",
+                "from": "NTT Service Evolution Labs., NTT Corp."
+            },
+            {
+                "name": "Shigenori Ohashi",
+                "from": "NTT Service Evolution Labs., NTT Corp."
+            },
+            {
+                "name": "Shigeru Fujimura",
+                "from": "NTT Service Evolution Labs., NTT Corp."
+            },
+            {
+                "name": "Atsushi Nakadaira",
+                "from": "NTT Service Evolution Labs., NTT Corp."
+            },
+            {
+                "name": "Kota Hidaka",
+                "from": "NTT Service Evolution Labs., NTT Corp."
+            },
+            {
+                "name": "Jay Kishigami",
+                "from": "Muroran Institute of Technology"
+            }
+        ],
+        "IEEE Keywords": [
+            "Blockchain",
+            "History",
+            "Smart contracts",
+            "Supply chains",
+            "Standards",
+            "Industries",
+            "Reliability"
+        ],
+        "Author Keywords": [
+            "Blockchain",
+            "DAG",
+            "Token",
+            "Ethereum"
+        ]
     },
     {
-        "title": "",
+        "title": "FastChain: Scaling Blockchain System with Informed Neighbor Selection",
         "pages": 0,
         "Cites in Papers": 14,
         "Cites in Patent": 1163,
         "Full Text Views": 0,
-        "Publisher": "",
-        "DOI": "",
+        "Publisher": "IEEE",
+        "DOI": "10.1109/Blockchain.2019.00058",
         "Date of Publication": "14-17 July 2019",
-        "abstract": "",
-        "Published in": "",
-        "Authors": [],
-        "IEEE Keywords": [],
-        "Author Keywords": []
+        "abstract": "The main advantage of the Bitcoin-style blockchain systems is immutability of data and decentralized authority. Despite its success, Bitcoin suffers from scalability issues. The potential of the blockchain technology cannot be fully realized unless it is made more scalable. We extend previous analysis on a fundamental trade-off between the throughput and forking rate of the blockchain system. We further propose FastChain to increase the throughput of the blockchain system by reducing the block propagation time. FastChain adopts bandwidth-informed neighbor selection. Miners disconnect from bandwidth-limited neighbors and favor the nodes with higher bandwidth. We build a Blockchain Dynamics Simulator (BDSim) to evaluate the performance of FastChain. FastChain improves the throughput by 20%~40% in the normal operations.",
+        "Published in": "2019 IEEE International Conference on Blockchain (Blockchain)",
+        "Authors": [
+            {
+                "name": "Ke Wang",
+                "from": "Carnegie Mellon University"
+            },
+            {
+                "name": "Hyong S. Kim",
+                "from": "Carnegie Mellon University"
+            }
+        ],
+        "IEEE Keywords": [
+            "Blockchain",
+            "Peer-to-peer computing",
+            "Bitcoin",
+            "Throughput",
+            "Scalability",
+            "Bandwidth",
+            "Mathematical model"
+        ],
+        "Author Keywords": [
+            "Bitcoin, blockchain, scalability, throughput, forking rate, peer-to-peer network, neighbor selection"
+        ]
     },
     {
         "title": "Towards a Framework for Understanding the Performance of Blockchains",
@@ -2856,46 +3152,9 @@
         "Date of Publication": "27-30 September 2021",
         "abstract": "Blockchain and Distributed Ledger Technology (DLT) appears to be at a worldwide threshold of acceptance and adoption. Since their inception, several innovative projects have been proposing solutions to the blockchain trilemma, improving blockchain features and its technical limitations. However, the adoption of blockchain as a technology or a software component, requires a comprehensive understanding and characterization of their technical principles and characteristics. The latter introduces an uncertainty for an organization to decide which blockchain protocol best meets its needs and demands. In general, there is a lack of proper testing and software engineering practices for assessing the usage of blockchains usage and understanding their performance. Towards that direction, this paper presents an architecture for a blockchain benchmarking framework which aims at the deployment and evaluation of different blockchain protocols, focusing on different aspects such as security and scalability. A set of modules is introduced for testing and evaluating the behaviour of blockchain protocols under different test scenarios.",
         "Published in": "2021 3rd Conference on Blockchain Research & Applications for Innovative Networks and Services (BRAINS)",
-        "Authors": [
-            {
-                "name": "Marios Touloupou",
-                "from": "Department of Digital Innovation, University of Nicosia, Nicosia, Cyprus"
-            },
-            {
-                "name": "Klitos Christodoulou",
-                "from": "Department of Digital Innovation, University of Nicosia, Nicosia, Cyprus"
-            },
-            {
-                "name": "Antonis Inglezakis",
-                "from": "Department of Digital Innovation, University of Nicosia, Nicosia, Cyprus"
-            },
-            {
-                "name": "Elias Iosif",
-                "from": "Department of Digital Innovation, University of Nicosia, Nicosia, Cyprus"
-            },
-            {
-                "name": "Marinos Themistocleous",
-                "from": "Department of Digital Innovation, University of Nicosia, Nicosia, Cyprus"
-            }
-        ],
-        "IEEE Keywords": [
-            "Protocols",
-            "Uncertainty",
-            "Distributed ledger",
-            "Computer architecture",
-            "Benchmark testing",
-            "Software",
-            "Blockchains"
-        ],
-        "Author Keywords": [
-            "blockchain",
-            "benchmarking framework",
-            "testing",
-            "reproducibility",
-            "XRP ledger",
-            "consensus",
-            "protocols"
-        ]
+        "Authors": [],
+        "IEEE Keywords": [],
+        "Author Keywords": []
     },
     {
         "title": "Distributed Application of Blockchain\u2014Taking Cross-Border E-Commerce as an Example",
@@ -2908,12 +3167,7 @@
         "Date of Publication": "28-30 October 2022",
         "abstract": "Blockchain is a chained data structure that connects data blocks in chronological order according to the principle of head to tail connection. It is a distributed ledger technology combined with a variety of network technologies. In essence, it is a decentralized database. In short, the database can be regarded as an account book, and everyone can participate in bookkeeping. As a distributed accounting technology, blockchain makes it possible to monitor the logistics transportation process in real time, and it also makes it easier to track down the responsibility in case of goods to goods problems. Since each node of the blockchain has bookkeeping permission, each entity in the goods transportation can also record the logistics information on the blockchain, which not only records the whole process of goods from delivery to receipt in real time, but also realizes the sharing, openness and transparency of logistics information. blockchain technology takes \u201cdistributed ledger\u201d as the solution, and its essence is a decentralized data storage technology. In blockchain technology, there is no central node, each node is completely equal, and all nodes jointly maintain the public database through encryption protocol. Blockchain technology applies cryptography technology to decentralized networks.",
         "Published in": "2022 2nd International Conference on Computer Science and Blockchain (CCSB)",
-        "Authors": [
-            {
-                "name": "Yifu Liu",
-                "from": "XJTLU of Computer Science and Technology, School of Advanced Tech., Suzhou, Jiangsu, China"
-            }
-        ],
+        "Authors": [],
         "IEEE Keywords": [],
         "Author Keywords": []
     },
@@ -2960,19 +3214,57 @@
         ]
     },
     {
-        "title": "",
+        "title": "Privacy-Preserving Energy Trading Using Blockchain and Zero Knowledge Proof",
         "pages": 0,
         "Cites in Papers": 5,
         "Cites in Patent": 1112,
         "Full Text Views": 0,
-        "Publisher": "",
-        "DOI": "",
+        "Publisher": "IEEE",
+        "DOI": "10.1109/Blockchain55522.2022.00064",
         "Date of Publication": "22-25 August 2022",
-        "abstract": "",
-        "Published in": "",
-        "Authors": [],
-        "IEEE Keywords": [],
-        "Author Keywords": []
+        "abstract": "Microgrid research and construction effectively use distributed energy resources to stimulate clean energy devel-opment. Peer-to-peer (P2P) energy trading in microgrids helps create a fully competitive and autonomous energy trading market. Blockchain technology is employed to realize a P2P energy trading framework. However, while public blockchain is generally transparent, energy trading information is sensitive and thus requires a privacy-preserving mechanism. In this paper, we design a privacy-preserving energy trading mechanism by using blockchain and zero-knowledge proofs. A user uploads a commitment to the blockchain instead of the original bid amount, and the zero-knowledge proof of commitment is uploaded into the blockchain. Other participants can verify the correctness of energy trading in each auction match. Our experiments show the design is feasible and efficient in Ethereum although there are more gas consumptions.",
+        "Published in": "2022 IEEE International Conference on Blockchain (Blockchain)",
+        "Authors": [
+            {
+                "name": "Dongkun Hou",
+                "from": "School of Advanced Technology, Xi'an Jiaotong-Liverpool University, Suzhou, China"
+            },
+            {
+                "name": "Jie Zhang",
+                "from": "School of Advanced Technology, Xi'an Jiaotong-Liverpool University, Suzhou, China"
+            },
+            {
+                "name": "Sida Huang",
+                "from": "School of Advanced Technology, Xi'an Jiaotong-Liverpool University, Suzhou, China"
+            },
+            {
+                "name": "Zitian Peng",
+                "from": "School of Advanced Technology, Xi'an Jiaotong-Liverpool University, Suzhou, China"
+            },
+            {
+                "name": "Jieming Ma",
+                "from": "School of Advanced Technology, Xi'an Jiaotong-Liverpool University, Suzhou, China"
+            },
+            {
+                "name": "Xiaohui Zhu",
+                "from": "School of Advanced Technology, Xi'an Jiaotong-Liverpool University, Suzhou, China"
+            }
+        ],
+        "IEEE Keywords": [
+            "Microgrids",
+            "Blockchains",
+            "Peer-to-peer computing",
+            "Distributed power generation",
+            "Zero knowledge proof"
+        ],
+        "Author Keywords": [
+            "Energy Trading",
+            "Double Auction",
+            "Blockchain",
+            "Smart Contract",
+            "Energy Data Privacy",
+            "Zero Knowledge Proof"
+        ]
     },
     {
         "title": "The Blockchain Trilemma Described by a Formula",
@@ -3056,19 +3348,45 @@
         "Author Keywords": []
     },
     {
-        "title": "",
+        "title": "Enrichment of Blockchain Transaction Management with Semantic Triples",
         "pages": 0,
         "Cites in Papers": 1,
         "Cites in Patent": 222,
         "Full Text Views": 0,
-        "Publisher": "",
-        "DOI": "",
+        "Publisher": "IEEE",
+        "DOI": "10.1109/Blockchain50366.2020.00030",
         "Date of Publication": "02-06 November 2020",
-        "abstract": "",
-        "Published in": "",
-        "Authors": [],
-        "IEEE Keywords": [],
-        "Author Keywords": []
+        "abstract": "Enterprise business transactions have both public and private information; hence blockchain adaptation to an enterprise business application needs current blockchain platforms to support both public and private information. Public blockchains (permissionless) are optimized for transparency; hence the sharing of private and sensitive information is challenging. On the other hand, private blockchains (permissioned) separate information about a transaction by generating a public transaction and a set of private transactions and treat them separately. This separation weakens the cohesiveness of transaction information and develops an extra burden when it is necessary to connect both public and private information which is not duly addressed in the literature. For example, auditing, regulatory activities, certifications, and traceability need both the public and private information about transactions. This paper uses semantic triples and introduces the Triples for Transactions(T4T) model to define blockchain transactions, improve cohesiveness and resolve the extra burden of connecting both private and public transactions. This paper presents a user-driven transaction analysis, transaction modelling using the T4T model, semantic querying, and REST endpoints to enrich transaction management. Sets of semantic triples can define both public and private information about a transaction while preserving cohesiveness of the information. This approach supports point-to-point sharing of sensitive information while preserving implicit relationships between both private and public information. We have implemented an auditing scenario in the proposed approach adopting Hyperledger Fabric and compared for performance with Hyperledger Fabric. The results showed that the proposed approach reduces the number of transaction cycles by 66% compared to Hyperledger Fabric and the performance of information retrieval is in O(N). This result is a significant improvement compared to Hyperledger F...",
+        "Published in": "2020 IEEE International Conference on Blockchain (Blockchain)",
+        "Authors": [
+            {
+                "name": "Kosala Yapa Bandara",
+                "from": "The Insight Centre for Data Analytics, National University of Ireland Galway, Galway, Ireland"
+            },
+            {
+                "name": "Subhasis Thakur",
+                "from": "The Insight Centre for Data Analytics, National University of Ireland Galway, Galway, Ireland"
+            },
+            {
+                "name": "John Breslin",
+                "from": "The Insight Centre for Data Analytics, National University of Ireland Galway, Galway, Ireland"
+            }
+        ],
+        "IEEE Keywords": [
+            "Analytical models",
+            "Distributed ledger",
+            "Semantics",
+            "Blockchain",
+            "Information retrieval",
+            "Fabrics",
+            "Business"
+        ],
+        "Author Keywords": [
+            "Blockchain",
+            "Traceability",
+            "Semantic Triples",
+            "Hyperledger Fabric"
+        ]
     },
     {
         "title": "Multi-Blockchain Model for Data Sharing with Bell-LaPadula Access Control",
@@ -3174,56 +3492,50 @@
         ]
     },
     {
-        "title": "",
+        "title": "Access Control for Electronic Health Records with Hybrid Blockchain-Edge Architecture",
         "pages": 0,
         "Cites in Papers": 90,
         "Cites in Patent": 3713,
         "Full Text Views": 0,
-        "Publisher": "",
-        "DOI": "",
-        "Date of Publication": "14-17 July 2019",
-        "abstract": "",
-        "Published in": "",
-        "Authors": [],
-        "IEEE Keywords": [],
-        "Author Keywords": []
-    },
-    {
-        "title": "Blockchain-Based Real Estate Market: One Method for Applying Blockchain Technology in Commercial Real Estate Market",
-        "pages": 0,
-        "Cites in Papers": 33,
-        "Cites in Patent": 2568,
-        "Full Text Views": 0,
         "Publisher": "IEEE",
-        "DOI": "10.1109/Blockchain.2019.00002",
+        "DOI": "10.1109/Blockchain.2019.00015",
         "Date of Publication": "14-17 July 2019",
-        "abstract": "Global real estate (RE) investments account more than twice the size of the stock market. Yet the number of investors in RE are much lower, because of the liquidity and global access. Tenants, owners, and investors are barely satisfied in the current system. In this paper, the goal is to try out the employment of blockchain in RE market and represent the facilities it can give to the RE market. The research to date leads to the following conclusions: Blockchain technology and smart contracts can sort out the classical issues that RE is facing with, and they offer much more meaningful tools for a game theoretic stable-priced market.",
+        "abstract": "The global Electronic Health Record (EHR) market is growing dramatically and expected to reach $39.7 billions by 2022. To safe-guard security and privacy of EHR, access control is an essential mechanism for managing EHR data. This paper proposes a hybrid architecture to facilitate access control of EHR data by using both blockchain and edge node. Within the architecture, a blockchain-based controller manages identity and access control policies and serves as a tamper-proof log of access events. In addition, off-chain edge nodes store the EHR data and apply policies specified in Abbreviated Language For Authorization (ALFA) to enforce attribute-based access control on EHR data in collaboration with the blockchain-based access control logs. We evaluate the proposed hybrid architecture by utilizing Hyperledger Composer Fabric blockchain to measure the performance of executing smart contracts and ACL policies in terms of transaction processing time and response time against unauthorized data retrieval.",
         "Published in": "2019 IEEE International Conference on Blockchain (Blockchain)",
         "Authors": [
             {
-                "name": "Sobhan Latifi",
-                "from": "College of Computer Science, Shahid Beheshti university of Tehran, Iran"
+                "name": "Hao Guo",
+                "from": "Department of Computer and Information Sciences, University of Delaware, U.S.A."
             },
             {
-                "name": "Yunpeng Zhang",
-                "from": "College of Technology, University of Houston, U.S.A."
+                "name": "Wanxin Li",
+                "from": "Department of Civil and Environmental Engineering, University of Delaware, U.S.A."
             },
             {
-                "name": "Liang-Chieh Cheng",
-                "from": "College of Technology, University of Houston, U.S.A."
+                "name": "Mark Nejad",
+                "from": "Department of Civil and Environmental Engineering, University of Delaware, U.S.A."
+            },
+            {
+                "name": "Chien-Chung Shen",
+                "from": "Department of Computer and Information Sciences, University of Delaware, U.S.A."
             }
         ],
         "IEEE Keywords": [
+            "Access control",
             "Blockchain",
-            "Investment",
+            "Distributed ledger",
+            "Fabrics",
+            "Medical services",
             "Smart contracts",
-            "Currencies",
-            "Databases",
-            "Cryptography",
-            "Gold"
+            "Computer architecture"
         ],
         "Author Keywords": [
-            "Blockchain technology, Commercial Real Estate, Algorithm based Stable token"
+            "Attribute-based Access Control",
+            "Access Control List",
+            "Blockchain",
+            "Edge Computing",
+            "Hyperledger",
+            "Smart Contract"
         ]
     },
     {
@@ -3270,6 +3582,44 @@
             "Universal Loyalty Program",
             "Hyperledger Fabric",
             "Stellar Blockchain"
+        ]
+    },
+    {
+        "title": "Blockchain-Based Real Estate Market: One Method for Applying Blockchain Technology in Commercial Real Estate Market",
+        "pages": 0,
+        "Cites in Papers": 33,
+        "Cites in Patent": 2568,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/Blockchain.2019.00002",
+        "Date of Publication": "14-17 July 2019",
+        "abstract": "Global real estate (RE) investments account more than twice the size of the stock market. Yet the number of investors in RE are much lower, because of the liquidity and global access. Tenants, owners, and investors are barely satisfied in the current system. In this paper, the goal is to try out the employment of blockchain in RE market and represent the facilities it can give to the RE market. The research to date leads to the following conclusions: Blockchain technology and smart contracts can sort out the classical issues that RE is facing with, and they offer much more meaningful tools for a game theoretic stable-priced market.",
+        "Published in": "2019 IEEE International Conference on Blockchain (Blockchain)",
+        "Authors": [
+            {
+                "name": "Sobhan Latifi",
+                "from": "College of Computer Science, Shahid Beheshti university of Tehran, Iran"
+            },
+            {
+                "name": "Yunpeng Zhang",
+                "from": "College of Technology, University of Houston, U.S.A."
+            },
+            {
+                "name": "Liang-Chieh Cheng",
+                "from": "College of Technology, University of Houston, U.S.A."
+            }
+        ],
+        "IEEE Keywords": [
+            "Blockchain",
+            "Investment",
+            "Smart contracts",
+            "Currencies",
+            "Databases",
+            "Cryptography",
+            "Gold"
+        ],
+        "Author Keywords": [
+            "Blockchain technology, Commercial Real Estate, Algorithm based Stable token"
         ]
     },
     {
@@ -3375,16 +3725,7 @@
         "Date of Publication": "24-25 March 2023",
         "abstract": "Blockchain is considered to be a disruptive technology that will have an impact on all avenues. There are several promising applications for Blockchain Technology in numerous domains beyond the introductory cryptocurrency. Applications are said to be divided into 3 stages; Blockchain 1.0, 2.0 and 3.0. Blockchain 1.0 initiated the world of cryptocurrencies while Blockchain 2.0 allowed a host of fields to utilise smart contracts. Blockchain 3.0 is focused on the development of blockchain applications in art, culture, healthcare, science and government. In the realm of education, there are various aspects that can be positively affected with the use of Blockchain Technology. Few of these are certificate management, learning outcome management, fee and credit transfer, copyrights management, examination review and support for lifelong learning. This study aims to observe the changing landscape of education from a Blockchain perspective.",
         "Published in": "2023 Somaiya International Conference on Technology and Information Management (SICTIM)",
-        "Authors": [
-            {
-                "name": "Chetna Achar",
-                "from": "MET-ICS, Mumbai Educational Trust, Mumbai, India"
-            },
-            {
-                "name": "Bharati Wukkadada",
-                "from": "K J Somaiya Institute of Management, Somaiya Vidyavihar University, Mumbai, India"
-            }
-        ],
+        "Authors": [],
         "IEEE Keywords": [
             "Education",
             "Government",
@@ -3401,6 +3742,38 @@
             "Smart Contracts",
             "Blockchain Applications"
         ]
+    },
+    {
+        "title": "Blockchain with Machine Learning for Financial Portfolio Management",
+        "pages": 0,
+        "Cites in Papers": 175,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICEIEC58029.2023.10201043",
+        "Date of Publication": "14-16 July 2023",
+        "abstract": "Portfolio management diversifies investment across multiple assets for increased return and reduced risks. In the decentralized world of Web3, financial management companies are increasingly investing in blockchain ledger systems for asset transactions. As a result, new models of portfolio trading are needed. The paper presents a prototype of a portfolio management system with a machine learning-enabled recommend subsystem. The proposed account role mechanism combines user-defined functions and automated asset management operations. The combination of blockchain and artificial intelligence enables smart portfolio management.",
+        "Published in": "2023 IEEE 13th International Conference on Electronics Information and Emergency Communication (ICEIEC)",
+        "Authors": [
+            {
+                "name": "Tianhong Cai",
+                "from": "UNNC-NFTZ Blockchain Laboratory, School of Computer Science, University of Nottingham Ningbo China, Ningbo, Zhejiang Province, China"
+            },
+            {
+                "name": "Jiawei Wu",
+                "from": "School of Computer Science, University of Nottingham Ningbo China, Ningbo, Zhejiang Province, China"
+            },
+            {
+                "name": "Chenyang Yu",
+                "from": "School of Computer Science, University of Nottingham Ningbo China, Ningbo, Zhejiang Province, China"
+            },
+            {
+                "name": "Vladimir Brusic",
+                "from": "School of Computer Science, University of Nottingham Ningbo China, Ningbo, Zhejiang Province, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
     },
     {
         "title": "A Preliminary Study of the Impact of Blockchain Technology on Internal Auditing",
@@ -3469,17 +3842,26 @@
         ]
     },
     {
-        "title": "Blockchain with Machine Learning for Financial Portfolio Management",
+        "title": "Comparative Studies: Blockchain Technology Applications in GDPR - Representing an Applicability Model",
         "pages": 0,
-        "Cites in Papers": 175,
+        "Cites in Papers": 8,
         "Cites in Patent": 0,
         "Full Text Views": 0,
         "Publisher": "IEEE",
-        "DOI": "10.1109/ICEIEC58029.2023.10201043",
-        "Date of Publication": "14-16 July 2023",
-        "abstract": "Portfolio management diversifies investment across multiple assets for increased return and reduced risks. In the decentralized world of Web3, financial management companies are increasingly investing in blockchain ledger systems for asset transactions. As a result, new models of portfolio trading are needed. The paper presents a prototype of a portfolio management system with a machine learning-enabled recommend subsystem. The proposed account role mechanism combines user-defined functions and automated asset management operations. The combination of blockchain and artificial intelligence enables smart portfolio management.",
-        "Published in": "2023 IEEE 13th International Conference on Electronics Information and Emergency Communication (ICEIEC)",
-        "Authors": [],
+        "DOI": "10.1109/ICWR61162.2024.10533322",
+        "Date of Publication": "24-25 April 2024",
+        "abstract": "The application of blockchain technology in the context of the General Data Protection Regulation (GDPR) has emerged as a significant and challenging area of research in recent years. Many believe that blockchain capabilities can be leveraged to comply with GDPR principles. This study focuses on the specific capabilities of blockchain technology and addresses the unique data protection challenges in the information age, aiming to identify and represent these relationships through an applicability model. The goal of this research is to present a model for evaluating and selecting blockchain applications that are aligned with GDPR requirements. This model is developed through a meta-synthesis method and qualitative content analysis of 67 articles that concentrate on the potential applications of blockchain in GDPR across various countries. These applications are defined based on an analysis of key blockchain capabilities such as transparency, immutability, and data encryption. Further, this study maps these capabilities to key GDPR requirements such as data minimization and accuracy, analyzing them from both facilitating and inhibiting perspectives. Ultimately, based on qualitative content analysis and an in-depth study of 31 articles selected through the Critical Assessment of Methods of Protein Structure Prediction method (CASP), this research offers a comprehensive model for understanding and leveraging blockchain technology in a manner that complies with GDPR requirements. according to this, the study contributes to the understanding of blockchain technology\u2019s applicability in meeting GDPR requirements, offering insights for policymakers, industry stakeholders, and technology developers on the strategic implementation of blockchain for data protection.",
+        "Published in": "2024 10th International Conference on Web Research (ICWR)",
+        "Authors": [
+            {
+                "name": "Elham Khazaei",
+                "from": "Faculty of IT Management, University of Tehran, Tehran, Iran"
+            },
+            {
+                "name": "Abouzar Arabsorkhi",
+                "from": "Department of ICT Security, Iran Telecommunications Research Institute, Tehran, Iran"
+            }
+        ],
         "IEEE Keywords": [],
         "Author Keywords": []
     },
@@ -3494,9 +3876,35 @@
         "Date of Publication": "02-05 May 2022",
         "abstract": "Blockchain has attracted considerable attention as a solution to the challenges of privacy, security and decentralisation for many applications. However, these characteristics of the blockchain result in ever growing ledger size, which is one of the major barriers to blockchain adoption in large-scale networks such as the Internet of Things (IoT). In this paper, we propose Multi-Level Distributed Caching (MLDC) for blockchain storage optimisation which reduces data replication based on data access pattern. MLDC divides nodes into storage classes (SCs) by their node availability, and assigns each SC a different Access Frequency (AF) to remove data from the local storage. Over time, each node only stores frequently accessed data, so MLDC can reduce the total storage cost by 83% compared to conventional blockchain systems, while maintaining blockchain consistency and data availability with a slight increase in network overhead and data query delay.",
         "Published in": "2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
-        "Authors": [],
-        "IEEE Keywords": [],
-        "Author Keywords": []
+        "Authors": [
+            {
+                "name": "Jun Wook Heo",
+                "from": "School of Computer Science Queensland University of Technology, Brisbane, Australia"
+            },
+            {
+                "name": "Ali Dorri",
+                "from": "School of Computer Science Queensland University of Technology, Brisbane, Australia"
+            },
+            {
+                "name": "Raja Jurdak",
+                "from": "School of Computer Science Queensland University of Technology, Brisbane, Australia"
+            }
+        ],
+        "IEEE Keywords": [
+            "Privacy",
+            "Costs",
+            "Conferences",
+            "Frequency conversion",
+            "Blockchains",
+            "Delays",
+            "Cryptocurrency"
+        ],
+        "Author Keywords": [
+            "Blockchain",
+            "Internet of Things (IoT)",
+            "Storage optimisation",
+            "Distributed caching"
+        ]
     },
     {
         "title": "Blockchain Privacy Data Protection Method Based on HEVC Video Steganography",
@@ -3547,21 +3955,6 @@
             "Privacy protection",
             "Matrix encoding"
         ]
-    },
-    {
-        "title": "Comparative Studies: Blockchain Technology Applications in GDPR - Representing an Applicability Model",
-        "pages": 0,
-        "Cites in Papers": 8,
-        "Cites in Patent": 0,
-        "Full Text Views": 0,
-        "Publisher": "IEEE",
-        "DOI": "10.1109/ICWR61162.2024.10533322",
-        "Date of Publication": "24-25 April 2024",
-        "abstract": "The application of blockchain technology in the context of the General Data Protection Regulation (GDPR) has emerged as a significant and challenging area of research in recent years. Many believe that blockchain capabilities can be leveraged to comply with GDPR principles. This study focuses on the specific capabilities of blockchain technology and addresses the unique data protection challenges in the information age, aiming to identify and represent these relationships through an applicability model. The goal of this research is to present a model for evaluating and selecting blockchain applications that are aligned with GDPR requirements. This model is developed through a meta-synthesis method and qualitative content analysis of 67 articles that concentrate on the potential applications of blockchain in GDPR across various countries. These applications are defined based on an analysis of key blockchain capabilities such as transparency, immutability, and data encryption. Further, this study maps these capabilities to key GDPR requirements such as data minimization and accuracy, analyzing them from both facilitating and inhibiting perspectives. Ultimately, based on qualitative content analysis and an in-depth study of 31 articles selected through the Critical Assessment of Methods of Protein Structure Prediction method (CASP), this research offers a comprehensive model for understanding and leveraging blockchain technology in a manner that complies with GDPR requirements. according to this, the study contributes to the understanding of blockchain technology\u2019s applicability in meeting GDPR requirements, offering insights for policymakers, industry stakeholders, and technology developers on the strategic implementation of blockchain for data protection.",
-        "Published in": "2024 10th International Conference on Web Research (ICWR)",
-        "Authors": [],
-        "IEEE Keywords": [],
-        "Author Keywords": []
     },
     {
         "title": "A Video Security Verification Method Based on Blockchain",
@@ -3758,16 +4151,16 @@
         ]
     },
     {
-        "title": "Blockchain Based Log System",
+        "title": "",
         "pages": 0,
-        "Cites in Papers": 6,
-        "Cites in Patent": 703,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
         "Full Text Views": 0,
-        "Publisher": "IEEE",
-        "DOI": "10.1109/BigData.2018.8622204",
-        "Date of Publication": "10-13 December 2018",
-        "abstract": "The logging system records the logs generated by the software so that the administrator can handle the problems that occur. However, the traditional log system is not secure enough and the stored logs are easily falsified. As a decentralized distributed storage technology, the blockchain can ensure that the blockchain network works normally in the presence of a few malicious nodes or failed nodes. So we use the blockchain to store the logs, which improves the security of the log system. In order to improve the performance of the blockchain, we use a voting-based consensus algorithm as a blockchain consistency protocol. This article introduces the architecture and implementation of the log system and verifies the feasibility of the system through experiments.",
-        "Published in": "2018 IEEE International Conference on Big Data (Big Data)",
+        "Publisher": "",
+        "DOI": "",
+        "Date of Publication": "",
+        "abstract": "",
+        "Published in": "",
         "Authors": [
             {
                 "name": "Jiansen Huang",
@@ -4058,7 +4451,36 @@
         "Date of Publication": "15-17 July 2022",
         "abstract": "This article first introduced the process of renewable energy power trading, sorted out the core information and data required for the traceability of the entire chain from the power generation side to the power consumption side, and established the renewable energy power traceability mechanism of \u201csub-link traceability + overall calculation and verification\u201d. Using blockchain encryption and anti-tampering features, a blockchain-based core data collection and traceability system was studied and designed, which realized the on-chain certification and traceability verification of key information to ensure the authenticity and credibility of traceable data, and improve traceability and supervision capabilities. The renewable energy traceability system has been verified in a power supply scenario.",
         "Published in": "2022 International Conference on Blockchain Technology and Information Security (ICBCTIS)",
-        "Authors": [],
+        "Authors": [
+            {
+                "name": "Qing Zhang",
+                "from": "State Grid Beijing Electric Power Company, Beijing, China"
+            },
+            {
+                "name": "Tao Xu",
+                "from": "State Grid E-Commerce Co., Ltd., Beijing, China"
+            },
+            {
+                "name": "Dong Wang",
+                "from": "State Grid E-Commerce Co., Ltd., Beijing, China"
+            },
+            {
+                "name": "Zijian Liu",
+                "from": "State Grid Beijing Electric Power Company, Beijing, China"
+            },
+            {
+                "name": "Chuanyuan Cheng",
+                "from": "State Grid Beijing Electric Power Company, Beijing, China"
+            },
+            {
+                "name": "Shangzhuo Zheng",
+                "from": "State Grid E-Commerce Co., Ltd., Beijing, China"
+            },
+            {
+                "name": "Gangpeng Wang",
+                "from": "State Grid E-Commerce Co., Ltd., Beijing, China"
+            }
+        ],
         "IEEE Keywords": [
             "Renewable energy sources",
             "Fault tolerance",
@@ -4274,7 +4696,16 @@
         "Date of Publication": "14-17 July 2019",
         "abstract": "Ride sharing is a centralized trust based system where users trust the service providers for the ride set up, tracking, cancellation, fare calculation etc. Any malicious activity in the centralized server based system or driver or rider destroys the fairness involved in the ride and causes inconvenience to the parties. After the completion of the ride, the drivers are rated by the riders. There are possibilities that, a malicious rider can claim the refund with a fake complain and give the driver poor rating. Current system is not capable of deciding the correctness of the objections raised by either parties and provides a biased outcome of each objections as per the centralized company's marketing strategies. We present BlockV, a blockchain enabled solution to ensure the fairness of the ride. The creation, completion, dissatisfaction or abortion of any ride will be written in the blockchain ledger, hence will be available to all participants in the peer to peer network. This simultaneously ensures the fairness in maintenance of the inbuilt reputation system. We have implemented a prototype in Ethereum private network and KOVAN test network and the analysis is included.",
         "Published in": "2019 IEEE International Conference on Blockchain (Blockchain)",
-        "Authors": [],
+        "Authors": [
+            {
+                "name": "Panchalika Pal",
+                "from": "Indian Statistical Institute, India"
+            },
+            {
+                "name": "Sushmita Ruj",
+                "from": "Indian Statistical Institute, India"
+            }
+        ],
         "IEEE Keywords": [
             "Blockchain",
             "Contracts",
@@ -4428,7 +4859,16 @@
         "Date of Publication": "18-19 July 2020",
         "abstract": "Cloud ERP systems are the ultimate aspiration of the business community as they provide collaboration with partners, external applications and information systems. However, Cloud ERP solutions still have issue on the data security, data transparency, and trust. Due to these problems, a radical change is required within Cloud ERP framework to enhance Cloud ERP infrastructural and functionality. The goal of this research is to merge cloud ERP and Blockchain benefits together to improve the Data Security, Transaction Traceability, Transparency, Data Ownership, Encryption and Trust through a proposed framework. For this purpose, we firstly analyze the prominent issues in current ERP systems through a comprehensive comparison between cloud ERP before and after moving to blockchain environment. Secondly, we propose a generic framework for Cloud ERP systems based on Blockchain. The proposed framework follows the Distributed Ledger Techniques in blockchain. Finally, the feasibility and efficiency of the proposed framework is tested through the study of the Supply Chain Management Module.",
         "Published in": "2020 International Conference on Virtual Reality and Intelligent Systems (ICVRIS)",
-        "Authors": [],
+        "Authors": [
+            {
+                "name": "Xaysomphone Thipphonexai",
+                "from": "School of electronics and Information Engineering, Lanzhou Jiaotong University, Gansu, China"
+            },
+            {
+                "name": "Yan Guanghui",
+                "from": "School of electronics and Information Engineering, Lanzhou Jiaotong University, Gansu, China"
+            }
+        ],
         "IEEE Keywords": [],
         "Author Keywords": []
     },

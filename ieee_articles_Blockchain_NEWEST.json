@@ -1,0 +1,1488 @@
+[
+    {
+        "title": "Secured Connected Vehicles for Intelligent Transportation",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICSSES62373.2024.10561322",
+        "Date of Publication": "03-04 May 2024",
+        "abstract": "In recent years, heightened concerns regarding green technology and road safety have driven extensive research and development in Intelligent Transport Systems (ITS) for automobiles. This initiative focuses on the implementation of automated vehicle platooning as a promising solution, specifically in investigating control algorithms for platooning behavior studies indoors. The proposed platoon structure involves n vehicles, each equipped with control algorithms for basic path control, longitudinal control, string stability, and platoon converging concepts. Utilizing vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communications over a wireless network, the vehicles engage in information exchange. Experimental evaluations will be conducted in a controlled laboratory environment using 1/10th scale prototype models, including a leader and follower vehicles, implementing PID controllers and sensor technologies. The primary goal is to develop robust security frameworks, leveraging state-of-the-art encryption, anomaly detection algorithms, and secure communication protocols to safeguard connected vehicles from cyber threats and ensure the integrity of critical communication systems in the transportation infrastructure.",
+        "Published in": "2024 International Conference on Smart Systems for applications in Electrical Sciences (ICSSES)",
+        "Authors": [
+            {
+                "name": "Seema B Hegde",
+                "from": "Department of ECE, Siddaganga Institute Of Technology, Tumakuru, India"
+            },
+            {
+                "name": "P Venkata Sai Devadutt",
+                "from": "Department of ECE, Siddaganga Institute Of Technology, Tumakuru, India"
+            },
+            {
+                "name": "P Chethan Sai",
+                "from": "Department of ECE, Siddaganga Institute Of Technology, Tumakuru, India"
+            },
+            {
+                "name": "Sanikommu Yaswanth",
+                "from": "Department of ECE, Siddaganga Institute Of Technology, Tumakuru, India"
+            },
+            {
+                "name": "T V Shashank",
+                "from": "Department of ECE, Siddaganga Institute Of Technology, Tumakuru, India"
+            },
+            {
+                "name": "P Santhosh",
+                "from": "Embedded systems engineering, Albert Ludwig University of Freiburg, Germany"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Hash Overhead Analysis for GOP-level Video Deduplication in Cloud Storage Environment",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICSSES62373.2024.10561372",
+        "Date of Publication": "03-04 May 2024",
+        "abstract": "Duplicate video files consume valuable storage capacity. Video deduplication removes needless redundancy, to reclaim the storage space and provides an affordable solution that lowers long-term operating expenses. The recent work on hash-based deduplication mechanism uses adaptive Group of Pictures (GOP) structure focusing I-frames based hash for identifying duplicate videos. The storage required for hash of all I-frames in a video increase with the size of the video. The goal of effective storage with video deduplication is abound. This paper addresses the issue of hash storage overhead based on I-frame of the GOP structure. All I-frames are collected in a temporary buffer and a hash is computed on it instead of individual I-frame hash. This single hash value generated is used to check for video duplication. The database is updated based on result of video deduplication. This methodology shows increased efficiency, performance and resource utilization, due to the fact that it is found to have lesser execution time, hashing time, as well as lesser amount of storage space that is employed.",
+        "Published in": "2024 International Conference on Smart Systems for applications in Electrical Sciences (ICSSES)",
+        "Authors": [
+            {
+                "name": "Shilpa Chaudhari",
+                "from": "Department of Computer Science and Engineering, M. S. Ramaiah Institue of Technology (Affiliated VTU), Bangalore, India"
+            },
+            {
+                "name": "R Aparna",
+                "from": "Department of Computer Science and Engineering, M. S. Ramaiah Institue of Technology (Affiliated VTU), Bangalore, India"
+            },
+            {
+                "name": "Aryan Anchalia",
+                "from": "Department of Computer Science and Engineering, M. S. Ramaiah Institue of Technology (Affiliated VTU), Bangalore, India"
+            },
+            {
+                "name": "Aneesh M Somayaji",
+                "from": "Department of Computer Science and Engineering, M. S. Ramaiah Institue of Technology (Affiliated VTU), Bangalore, India"
+            },
+            {
+                "name": "Anirudh Sanal Kumar",
+                "from": "Department of Computer Science and Engineering, M. S. Ramaiah Institue of Technology (Affiliated VTU), Bangalore, India"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Cryptocurrency Market Dynamics: A Machine Learning-Based Approach for Price Prediction",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICSSES62373.2024.10561446",
+        "Date of Publication": "03-04 May 2024",
+        "abstract": "Now-a-days Crypto currencies are digital currency that can be used as long-term investments or for all kinds of transactions. Investor interest in it is high because of its fundamental values of security, transparency, and decentralization. Developing successful investing strategies requires an accurate price prediction of the crypto currency due to its unique qualities and price volatility. The price of Bitcoin, the most popular crypto currency, is predicted using this model. A multitude of factors will be considered in order to forecast the accurate prices. The change point detection technique is used to provide robust prediction performance in the unseen price range. Furthermore, unique records that exist in crypto currencies and are posted on the block chain, or \u201con-chain data,\u201d are gathered and used as input variables to forecast values. Experiments with real world Bit coin price data and various methods have proven the proposed system\u2019s effectiveness in Bit coin price prediction. Crypto currency price trading is a huge demand of exchange right now. It is a great advantage for investors and day-to-day traders. In this work they will use latest Machine Learning algorithms for finding out the Price Prediction of Crypto currency.These algorithms assist in identifying price prediction. These algorithms are all contrasted with one another to provide precise results.",
+        "Published in": "2024 International Conference on Smart Systems for applications in Electrical Sciences (ICSSES)",
+        "Authors": [
+            {
+                "name": "D. Ganesh",
+                "from": "Erstwhile Sree Vidyanikethan Engineering College(Autonomous), Mohan Babu University, Tirupati, Andhra Pradesh, India"
+            },
+            {
+                "name": "Vemula Chandu Harshavardhan",
+                "from": "Department of CA, Erstwhile Sree Vidyanikethan Engineering College(Autonomous), Mohan Babu University, Tirupati, Andhra Pradesh, India"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Evaluation of Advanced Encryption Standard Algorithms for Image Encryption",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICSSES62373.2024.10561385",
+        "Date of Publication": "03-04 May 2024",
+        "abstract": "With the maturation of quantum computing, traditional cryptography is gradually facing threats. While the Grover algorithm can accelerate search speeds, current observations suggest that symmetric cryptography (such as Advanced Encryption Standard (AES)) can still enhance security by increasing the length of the secret key. However, AES implementation involves various modes, not all of which are secure. In light of this, this study proposes an evaluation factor based on Gini impurity to verify the security of each mode and uses encrypted images as a case study for validation. Furthermore, this study also compares the electronic codebook (ECB) mode, cipher block chaining (CBC) mode, counter (CTR) mode, counter with CBC-message authentication code (MAC) (CCM) mode, and Galois counter mode (GCM).",
+        "Published in": "2024 International Conference on Smart Systems for applications in Electrical Sciences (ICSSES)",
+        "Authors": [
+            {
+                "name": "Abel C. H. Chen",
+                "from": "Information & Communications Security Laboratory, Chunghwa Telecom Laboratories, Taoyuan, Taiwan"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "A Lightweight Blockchain Scheme for Secure Data Communication in Internet of Things-enabled Wireless Sensor Network",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICSSES62373.2024.10561348",
+        "Date of Publication": "03-04 May 2024",
+        "abstract": "In today\u2019s world, there will probably be an enormous rise in the volume of data sensed by sensors on the Internet of Things-enabled Wireless Sensor Network (IWSN). The sensed data from sensor nodes is gathered and transmitted to the sink. These sensor nodes suffer from several consequences including security, transparency, trust, and immutability. Furthermore, other technical impairments like computation, storage of sensed data, privacy, and energy conservation enhance the issues of the IWSN. To overcome this, a novel Blockchain Interplanetary File Access Control System (BIFACS) has been proposed to manage intelligent autonomous access control for IWSN. Efficient data security and data transmission can be achieved in the proposed scheme by using the BIFACS algorithms. Further, the proposed scenario is implemented in the Solidity programming language and deployed on the local Ethereum. The efficacy of the proposed system has been analyzed based on computing, storage, and network performance.",
+        "Published in": "2024 International Conference on Smart Systems for applications in Electrical Sciences (ICSSES)",
+        "Authors": [
+            {
+                "name": "Lavina Balraj",
+                "from": "Department of Electronics and Communication Engineering, Sri Venkateswara College of Engineering, Sriperumbudur, Tamil Nadu, India"
+            },
+            {
+                "name": "A. Prasanth",
+                "from": "Department of Computer Science and Engineering, Vel Tech Rangarajan Dr. Sagunthala, R&D, Institute of Science and Technology Tamil Nadu, India"
+            },
+            {
+                "name": "K.K. Devi Sowndarya",
+                "from": "Department of Electronics and Communication Engineering, DMI College of Engineering, Chennai, Tamil Nadu, India"
+            },
+            {
+                "name": "T. Kuntavai",
+                "from": "Department of Electrical and Electronics Engineering, Adhipara Sakthi Engineering College, Chengalpattu, Tamil Nadu, India"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Selfish Mining Attacks in Sharded Blockchains",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICNC59896.2024.10556307",
+        "Date of Publication": "19-22 February 2024",
+        "abstract": "Sharding is a promising technology to improve scalability of a blockchain. A blockchain is partitioned into a number of shards each of which is maintained by a subset of miners. The multiple shards constitute a sharded blockchain and are able to process transactions concurrently such that the overall throughput is increased. However, decreasing the number of miners in a blockchain increases the possibility to be attacked. In this paper, we consider how selfish mining attacks sharded blockchains. To the best of our knowledge, the problem has not been studied before. We first formulate an optimization problem to maximize the rewards earned by selfish miners by using an accurate analytical model. An algorithm for selfish miners to earn most rewards is proposed. Numerical results show that robustness of blockchains becomes weak when the blockchain is sharded. However, no matter how many number shards in a sharded blockchain, the rewards earned by selfish miners are close to each other. Furthermore, when the honest mining rate is uniformly assigned to each shard, the selfish miners earns the smallest amount of rewards.",
+        "Published in": "2024 International Conference on Computing, Networking and Communications (ICNC)",
+        "Authors": [
+            {
+                "name": "Sheng-Wei Wang",
+                "from": "Department of Electronic Engineering, National United University, Miaoli, TAIWAN"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "OBSERVE: Blockchain-Based Zero Trust Security Protocol for Connected and Autonomous Vehicles (CAVs) Data Using Simple Machine Learning",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICNC59896.2024.10556336",
+        "Date of Publication": "19-22 February 2024",
+        "abstract": "Connected and Autonomous Vehicle (CAVs) can proactively share future trajectories with each other and coordinate for safe navigation and efficient route planning. However, for a vehicle to rely on a nearby vehicle's trajectory data for realtime navigation decisions, it needs to trust data shared by neighboring vehicles. There exist no such distributed method to do so, and therefore, we propose OBSERVE, a lightweight trust model for nearby vehicles to endorse each others' trajectories in realtime using blockchain. Vehicles self-organize to endorse each others trajectories through consensus, where, each vehicle verify nearby vehicles trajectory by predicting the corresponding trajectory, compare results with peers, and reach consensus on its truthfulness. We employ simple machine learning for vehicles to predict neighbors trajectories instead of the computationally heavy vision based prediction algorithms, thus leveraging times-tamped coordinates towards an energy efficient endorsement. OBSERVE is validated on realistic data and has shown to achieve higher prediction accuracy with lower computation overhead.",
+        "Published in": "2024 International Conference on Computing, Networking and Communications (ICNC)",
+        "Authors": [
+            {
+                "name": "Bo Sullivan",
+                "from": "Western Washington University, WA, USA"
+            },
+            {
+                "name": "Junaid Ahmed Khan",
+                "from": "Western Washington University, WA, USA"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "A Game Theory Based Rational Mining Strategy in Blockchains With Multiple Rational Miners",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICNC59896.2024.10556239",
+        "Date of Publication": "19-22 February 2024",
+        "abstract": "Previous researches have shown that a miner using selfish mining strategy is not necessarily profitable if the selfish mining rate is not large enough. In such situation, a miner will choose honest mining strategy rather in order to earn more rewards. Such miners are called rational miners. In this paper, we discuss mining strategies in the blockchains with one honest and two independent rational miners. The rewards earned by different miners using different mining strategy combinations are calculated by the analytical models proposed in previous works. Payoff matrices are constructed and the Nash equilibria are then found by comparing the earned rewards. Numerical results show that the miners have their own dominant strategies in most situations. However, when the mining rates of the two rational miners are both between 0.22 and 0.25, there is no dominant strategy such that the miners shall guess which strategy will be used by the other miner. We proposed a game theory based rational mining strategy that chooses the mining strategy according to a probability distribution. Rewards earned by the proposed strategy are shown to be guaranteed larger than or equal to those earned by honest mining strategy.",
+        "Published in": "2024 International Conference on Computing, Networking and Communications (ICNC)",
+        "Authors": [
+            {
+                "name": "Sheng-Wei Wang",
+                "from": "Department of Electronic Engineering, National United University, Miaoli, TAIWAN"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Proof-of-QoE NOMA Token: A Crypto Rewarding Concept to Incentivize Local Relay In Non-Orthogonal Multiple Access Wireless Networks",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICNC59896.2024.10556044",
+        "Date of Publication": "19-22 February 2024",
+        "abstract": "In Non-Orthogonal Multiple Access (NOMA) wireless networks, it can be beneficial to allow closer users to relay the cache data to farther users. However, motivating short-distance NOMA users to participate in the relaying requires an appropriate incentive. In this paper, we propose a new crypto token - NOMAToken on the Ethereum blockchain leveraging the Proof of Quality of Experience (QoE) consensus mechanism. NOMAToken serves as a payment token that facilitates all monetary transactions within a NOMA network. As an Ethereum-based token, it can be held or traded against reserve tokens, establishing its own price. The optimal price for retransmission services is determined using the Vickery-Clarke-Groves (VCG) second price auction technique. We discuss the Proof-of-QoE driven consensus model and a Prospect Theory inspired scoring model to regulate the token. The consensus model is designed to ensure that the relay provides the highest possible QoE for its users, while the scoring mechanism serves as a paradigm to allow users to mint new NOMAToken and introduce liquidity.",
+        "Published in": "2024 International Conference on Computing, Networking and Communications (ICNC)",
+        "Authors": [],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "A Measurement Investigation of ERC-4337 Smart Contracts on Ethereum Blockchain",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICNC59896.2024.10556301",
+        "Date of Publication": "19-22 February 2024",
+        "abstract": "Account abstraction is a method that enhances the flexibility and extensibility of blockchain accounts. For the Ethereum blockchain, ERC-4337 is a proposal for implementing account abstraction without modifying the logic of the underlying consensus protocol. However, due to its complete implementation through smart contracts, the transaction costs associated with ERC-4337 remain expensive compared to regular Externally Owned Account (EOA) transactions. To evaluate the usage costs of ERC-4337, we introduce two innovative algorithms: the ERC-4337 Classification Algorithm and the ERC-4337 Gas Measure-ment Algorithm. The Classification Algorithm categorizes historical ERC-4337 transactions and logs, providing valuable insights into their nature and characteristics. The Gas Measurement Algorithm calculates the actual gas consumption for users and the incentives paid to bundlers that package the transactions of ERC-4337 (UserOperation) into an Ethereum standard transaction. We have implemented these algorithms within the official ERC-4337 deployment on the Ethereum network. Our findings indicate that creating an ERC-4337 account costs 381,489 gas, allowing only 78 accounts per block. Furthermore, a basic ERC-4337 transfer consumes 92,901 gas, which is four times the gas cost of an EOA transfer. These results confirm that high gas fees continue to pose a significant obstacle to the widespread adoption of ERC-4337. Moreover, our proposed algorithms can serve as a valuable toolset for evaluating the usage costs associated with different account abstraction proposals on Ethereum to contribute to the assessment and improvement of account abstraction mechanisms.",
+        "Published in": "2024 International Conference on Computing, Networking and Communications (ICNC)",
+        "Authors": [
+            {
+                "name": "Zibin Lin",
+                "from": "College of Electronics and Information Engineering, Shenzhen University, Shenzhen, China"
+            },
+            {
+                "name": "Taotao Wang",
+                "from": "College of Electronics and Information Engineering, Shenzhen University, Shenzhen, China"
+            },
+            {
+                "name": "Chonghe Zhao",
+                "from": "College of Electronics and Information Engineering, Shenzhen University, Shenzhen, China"
+            },
+            {
+                "name": "Shengli Zhang",
+                "from": "College of Electronics and Information Engineering, Shenzhen University, Shenzhen, China"
+            },
+            {
+                "name": "Qing Yang",
+                "from": "College of Electronics and Information Engineering, Shenzhen University, Shenzhen, China"
+            },
+            {
+                "name": "Long Shi",
+                "from": "College of Electronics and Information Engineering, Shenzhen University, School of Electronic and Optical Engineering, Nanjing University of Science and Technology, Jiangsu, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Trustful Blockchain-Enabled Identity Management for VANET with Short-Latency Authentication",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICNC59896.2024.10556332",
+        "Date of Publication": "19-22 February 2024",
+        "abstract": "Blockchain technology has emerged as a popular research topic, particularly in the area of identity management, which provides with a decentralized ID system due to its inherent distributed architecture. This paper focuses on the security issues for vehicular ad-hoc networks (VANETs), where there exists significant obstacles to deploy blockchain-based identity manage-ment system. The idea of lightweight node seems to address such issues, as it provides a local transaction query method. However, it cannot directly suit the complex identity management scenario, as malicious revoked users can successfully exploit spoofing attacks to mislead the lightweight nodes. This paper therefore proposes a new blockchain-enabled identity management scheme for VANET system, which realizes extremely short-latency identity verification with the idea lightweight node. Especially, to achieve trustful revocation for lightweight node, we leverage the mechanism of redactable blockchain with chameleon hash, as well our tailored security protocols. The proposed scheme offers a highly secure, distributed and low-cost identity management system. The experimental result shows our advantage in terms of functionality and efficiency.",
+        "Published in": "2024 International Conference on Computing, Networking and Communications (ICNC)",
+        "Authors": [
+            {
+                "name": "Jiayue Zhou",
+                "from": "SJTU-Paris Institute of Technology, Shanghai Jiao Tong University, China"
+            },
+            {
+                "name": "Jianan Hong",
+                "from": "School of Cyber Science and Engineering, Shanghai Jiao Tong University, China"
+            },
+            {
+                "name": "Chengchen Zhu",
+                "from": "School of Cyber Science and Engineering, Shanghai Jiao Tong University, China"
+            },
+            {
+                "name": "Futai Zou",
+                "from": "School of Cyber Science and Engineering, Shanghai Jiao Tong University, China"
+            },
+            {
+                "name": "Cunqing Hua",
+                "from": "School of Cyber Science and Engineering, Shanghai Jiao Tong University, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Hyperclique: A Novel P2P Network Structure for Blockchain Systems",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICNC59896.2024.10556310",
+        "Date of Publication": "19-22 February 2024",
+        "abstract": "This paper presents a novel P2P broadcast network called Hyperclique, which assigns a coordinate value to each peer in the network with adjustable dimensionality. Based on the concept of a clique, nodes whose coordinate values differ in only one dimension form one clique in Hyperclique. Hyper-clique offers several advantages over the current P2P network topology, including a shorter network diameter and tighter network density. The node degree and average path length can be adjusted based on the network's actual conditions. Combining the coordinates with smart contract will result in extra-savings in both broadcast messages and convergence time. This paper provides a comparative analysis of the Hyperclique structure and other popular structured P2P topologies, demonstrating that Hyperclique outperforms them in improving the performance of P2P overlay networks. Additionally, the Hyperclique system supports various blockchain upper layers and is a promising and secure solution to improve the performance of blockchain networks.",
+        "Published in": "2024 International Conference on Computing, Networking and Communications (ICNC)",
+        "Authors": [],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Blockchain-Assisted Cross-Domain Data Governance for Social Computing",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICNC59896.2024.10555961",
+        "Date of Publication": "19-22 February 2024",
+        "abstract": "With the vigorous development of the social network, massive data have generated by large amount of users. To utilize these data, social computing is widely used. However, due to the conflict between proprietary data and the use of data, it is a challenge to fully obtain data value in an efficient and legal way. Moreover, how to manage, govern and schedule data, a technical and feasible approach is still a major problem. To this end, as an emerging distributed ledger technology, blockchain is considered a promising technology for data security and privacy and is introduced for cross-domain data governance. In this paper, we propose a blockchain-assisted cross-domain data sharing scheme for social computing data governance. Specifically, permissioned blockchain is introduced to construct trust among different parties. A zero-knowledge proof scheme is designed to verify data ownership confidentially and anonymously. The security of the zero-knowledge proof scheme is also analyzed. The extensive simulations and experiments have proven the effectiveness and efficiency of the mechanism.",
+        "Published in": "2024 International Conference on Computing, Networking and Communications (ICNC)",
+        "Authors": [
+            {
+                "name": "Shulei Zeng",
+                "from": "State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, Beijing, China"
+            },
+            {
+                "name": "Yao Sun",
+                "from": "School of James Watt School of Engineering, University of Glasgow, Glasgow, U.K."
+            },
+            {
+                "name": "Mugen Peng",
+                "from": "State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, Beijing, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "RMF-GPT \u2014 OpenAI GPT-3.5 LLM, Blockchain, NFT, Model Cards and OpenScap Enabled Intelligent RMF Automation System",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICNC59896.2024.10555963",
+        "Date of Publication": "19-22 February 2024",
+        "abstract": "The Risk Management Framework (RMF) provides a structured approach to managing risks to the con-fidentiality, integrity, and availability of information systems. However, automating the RMF process can be challenging due to various factors such as complexity, dealing with various standards (e.g. NIST SP 800\u201353), and supporting continuous Authority to Operate(ATO). In this research, we propose a solution to these issues through an end-to-end RMF automation system enabled by Custom-Trained \u201cOpenAI GPT-3.5 LLM\u201d, blockchain, NFT, Model Cards, and OpenScap. The proposed system uses blockchain smart contracts to automate the vul-nerability scanning and fixing process. Smart contracts interact with OpenScap API, which scans vulnerabilities on servers/nodes based on provided RMF checklists such as PCI DSS, NIST 800, STIG. The system then employs the custom-trained GPT-3.5 LLM(which powers the ChatGPT) to generates vulnerability fixing scripts (referred to as server hardening scripts) using Ansible/Puppet based on the identified vulnerabilities. Finally, the system runs these scripts to fix the vulnerabilities. This approach creates a fully automated RMF system that uses blockchain/smart contracts. All the system statuses, such as vulnerability and fixed status, are represented as NFT tokens with a customized NFT schema. The data provenance information is traced through Model Cards, which reduces the complexity of RMF automation and improves the capability of continuous ATOs. In this way, the proposed end-to-end RMF automation system enabled by GPT-3.5 LLM, Blockchain, NFT, Model Cards, and OpenScap addresses the challenges associated with RMF automation, providing a more efficient and effective way to manage the security of information systems.",
+        "Published in": "2024 International Conference on Computing, Networking and Communications (ICNC)",
+        "Authors": [
+            {
+                "name": "Eranga Bandara",
+                "from": "Old Dominion University, Norfolk, VA, USA"
+            },
+            {
+                "name": "Sachin Shetty",
+                "from": "Old Dominion University, Norfolk, VA, USA"
+            },
+            {
+                "name": "Abdul Rahman",
+                "from": "Deloitte & Touche LLP"
+            },
+            {
+                "name": "Ravi Mukkamala",
+                "from": "Old Dominion University, Norfolk, VA, USA"
+            },
+            {
+                "name": "Peter Foytik",
+                "from": "Old Dominion University, Norfolk, VA, USA"
+            },
+            {
+                "name": "Xueping Liang",
+                "from": "Florida International University, USA"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Ensuring a Semantically Effective IoT Network Through Blockchain with Delayed Feedback",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICNC59896.2024.10556271",
+        "Date of Publication": "19-22 February 2024",
+        "abstract": "In this paper, we propose a delay-tolerant blockchain-enabled low-power wide area network. We consider the scenario of a set of information sources (e.g. sensors, IoT nodes) equipped with transceivers, accessing a common gateway in order to send sampled data of a local process to a group of remote destinations. Each source has an information penalty function, and the gateway earns a reward according to the result of this function. We show that our policy maximizes the reward of the gateway earned from the blockchain in a delayed reward situation.",
+        "Published in": "2024 International Conference on Computing, Networking and Communications (ICNC)",
+        "Authors": [
+            {
+                "name": "Omer Gencay",
+                "from": "Electrical and Electronics Eng. Dept, METU, Communication Networks Research Group (CNG), Ankara, Turkey"
+            },
+            {
+                "name": "Alperen Balci",
+                "from": "Electrical and Electronics Eng. Dept, METU, Communication Networks Research Group (CNG), Ankara, Turkey"
+            },
+            {
+                "name": "Elif Tugce Ceran",
+                "from": "Electrical and Electronics Eng. Dept, METU, Communication Networks Research Group (CNG), Ankara, Turkey"
+            },
+            {
+                "name": "Elif Uysal",
+                "from": "Electrical and Electronics Eng. Dept, METU, Communication Networks Research Group (CNG), Ankara, Turkey"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Tamperproof Data Transmission to Offline IoT Devices in a Zero-Trust Environment",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICNC59896.2024.10555945",
+        "Date of Publication": "19-22 February 2024",
+        "abstract": "This paper presents a holistic approach for transmitting arbitrary data to local Internet-of-Things (IoT) devices using only public services in a zero-trust environment. The approach features a variety of benefits, namely (i) eliminates the need for service providers to deploy their own costly infrastructure, (ii) enables the receiving device to operate without an active network connection, (iii) ensures that the data can be proven untampered on the IoT device itself, (iv) verifies both the validity and recency of the information, (v) requires low administrative and technical efforts, (vi) allows for wireless data updates, including the timeliness of current information, by any participant due to the zero-trust assumption. The described methodology utilizes distinct features of Proof-of-Work (PoW)-based programmable blockchain systems. This work will focus on the usage of Ethereum Classic (ETC) as base layer for trust, the validity and recency of the information. The proposed approach has wide-ranging practical applications, including programmable, rule-based locking systems such as smart locks used in corporate and institutional buildings, cars, and hotels. It also facilitates other forms of access control, such as ticket systems, health certificates, and proof-of-possession for resources or achievements. Due to the zero-trust assumption, data updates as well their recency can be updated by any participant of the system.",
+        "Published in": "2024 International Conference on Computing, Networking and Communications (ICNC)",
+        "Authors": [
+            {
+                "name": "Richard Vogel",
+                "from": "Faculty Applied Computer Sciences & Biosciences Hochschule Mittweida, Mittweida, Germany"
+            },
+            {
+                "name": "Robert Manthey",
+                "from": "Faculty Applied Computer Sciences & Biosciences Hochschule Mittweida, Mittweida, Germany"
+            },
+            {
+                "name": "Matthias Baumgart",
+                "from": "Faculty Applied Computer Sciences & Biosciences Hochschule Mittweida, Mittweida, Germany"
+            },
+            {
+                "name": "Christian Roschke",
+                "from": "Faculty Applied Computer Sciences & Biosciences Hochschule Mittweida, Mittweida, Germany"
+            },
+            {
+                "name": "Marc Ritter",
+                "from": "Faculty Applied Computer Sciences & Biosciences Hochschule Mittweida, Mittweida, Germany"
+            },
+            {
+                "name": "Matthias Vodel",
+                "from": "Faculty Applied Computer Sciences & Biosciences Hochschule Mittweida, Mittweida, Germany"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "An SDN-Enabled Elliptic-Curve Diffie-Hellman Key Exchange Towards Secure P2P Networking",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICNC59896.2024.10556089",
+        "Date of Publication": "19-22 February 2024",
+        "abstract": "The network connections based on the Transmission Control Protocol (TCP) are reliable but lack security protection. The conventional Transport Layer Security (TLS) protocol adds an extra layer over the transport layer which enables payload encryption of the TCP segment. However, TLS relies on certificate authority (CA) to distribute the public key (for preventing Man-in-the-Middle attack), which involves nonnegligible overhead and constrains its use, e.g., TLS is not appropriate to peer-to-peer (P2P) networks due to the huge communication overhead. Therefore, this paper proposes a novel key distribution mechanism towards securing the TCP connection on P2P network. The mechanism applies an SDN-enabled approach to facilitate the Elliptic-curve Diffie-Hellman key exchange. With this mechanism, the key exchange can prevent Man-in-the-Middle attack with minimal communication overhead. The experimental results built on the prototype show that this approach is efficient.",
+        "Published in": "2024 International Conference on Computing, Networking and Communications (ICNC)",
+        "Authors": [
+            {
+                "name": "Wenjun Fan",
+                "from": "School of Advanced Technology, Xi'an Jiaotong-Liverpool University, Suzhou, Jiangsu, P.R. China"
+            },
+            {
+                "name": "Siyuan Wu",
+                "from": "School of Advanced Technology, Xi'an Jiaotong-Liverpool University, Suzhou, Jiangsu, P.R. China"
+            },
+            {
+                "name": "Hao Chen",
+                "from": "School of Advanced Technology, Xi'an Jiaotong-Liverpool University, Suzhou, Jiangsu, P.R. China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Cross-Tier Coordination in Spectrum Sharing: A Blockchain Approach",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICNC59896.2024.10556321",
+        "Date of Publication": "19-22 February 2024",
+        "abstract": "To solve the contradiction between the increasing spectrum demand of wireless services and the finite and underutilized spectrum resources, the concept of spectrum sharing was proposed to allow unlicensed secondary users to temporarily share unused spectrum of licensed primary users. Currently, approaches based on geolocation databases have been standard-ized and commercialized, such as TV white space, license shared access (LSA) and the citizen broadband radio services (CBRS). These are centralized schemes where all spectrum allocation decisions are made by a third party or a cloud-based spectrum manager. Recently, blockchain technology has drawn the attention of researchers for its characteristics, such as decentralization, transparency, privacy preservation, and immutability. In this paper, we propose a blockchain-based spectrum sharing scheme to enable the direct coordination of the interference budget between priority users and general access users in the CBRS network. Evaluation results show that our proposed approach can increase the total number of users that can access the shared spectrum.",
+        "Published in": "2024 International Conference on Computing, Networking and Communications (ICNC)",
+        "Authors": [
+            {
+                "name": "Shuo Wang",
+                "from": "Research & Development Center, Sony (China) Limited, Beijing, China"
+            },
+            {
+                "name": "Chen Sun",
+                "from": "Research & Development Center, Sony (China) Limited, Beijing, China"
+            },
+            {
+                "name": "Haojin Li",
+                "from": "Research & Development Center, Sony (China) Limited, Beijing, China"
+            },
+            {
+                "name": "Tao Cui",
+                "from": "Research & Development Center, Sony (China) Limited, Beijing, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Improved Raft consensus algorithm based on NSGA-II and K-Means++",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ISSSR61934.2024.00055",
+        "Date of Publication": "16-17 March 2024",
+        "abstract": "Aiming at the problems of inefficient leader election, high leader node carrying pressure, and low scalability of blockchain network of Raft consensus algorithm, an improved Raft consensus algorithm-NK-Raft is proposed. The multi-objective function is established during the leader election phase, and the NSGA-II algorithm is utilized to conduct the leader election directly. By doing this, the election efficiency is increased, and time-wasting several rounds of leader node competition in the Raft consensus process are avoided. In order to decrease the load-bearing pressure on the leader nodes and increase the scalability of the blockchain network, the tightness value is proposed to stratify the network during the log replication phase. The K-Means++ algorithm is then introduced to group the node clusters in the blockchain network. The experimental study\u2019s findings demonstrate that, in comparison to the Raft consensus algorithm and the MCRaft algorithm, the NK-Raft algorithm reduces the election and consensus delays of the leader node as the blockchain network scales up, increases throughput, significantly lessens the load-bearing pressure on the leader node, has better scalability, and guarantees the blockchain network\u2019s performance.",
+        "Published in": "2024 10th International Symposium on System Security, Safety, and Reliability (ISSSR)",
+        "Authors": [
+            {
+                "name": "Sijia Yang",
+                "from": "Nanchang Hangkong University, Nanchang City, China"
+            },
+            {
+                "name": "Pengliu Tan",
+                "from": "Nanchang Hangkong University, Nanchang City, China"
+            },
+            {
+                "name": "Haowei Fu",
+                "from": "Nanchang Hangkong University, Nanchang City, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Advancements in the Internet of Medical Things in Healthcare: A Comprehensive Systematic Review",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICEMPS60684.2024.10559282",
+        "Date of Publication": "18-20 April 2024",
+        "abstract": "The Internet of Medical Things (IoMT) has arisen as a force that is transforming the healthcare industry by providing novel solutions for patient monitoring, diagnosis, treatment, and care. This bibliometric study investigates the expanding body of scientific literature that is focused on IoMT. The results of this investigation provide insights into the research trends, significant contributors, and theme development that are occurring in the area. Examine the publishing output, geographical distribution, and patterns of cooperation among researchers and institutions by conducting an analysis of research papers, reviews, and conference proceedings that are indexed in a variety of academic databases. Additionally, study the most popular subjects and developing areas of interest within IoMT, with the goal of shining light on the vital role that technology will play in the molding of the future of healthcare. This research emphasizes not only the multidisciplinary character of IoMT but also its relevance in tackling difficulties in the healthcare industry, improving patient outcomes, and driving data-driven innovation in the healthcare sector. This bibliometric study provides academics, practitioners, and policymakers with useful insights by mapping the intellectual landscape of IoMT research. These individuals are attempting to navigate and contribute to the ever-evolving area of medical IoT.",
+        "Published in": "2024 International Conference on E-mobility, Power Control and Smart Systems (ICEMPS)",
+        "Authors": [
+            {
+                "name": "Tanishq Soni",
+                "from": "Chitkara University Institute of Engineering and Technology, Chitkara University, Punjab, India"
+            },
+            {
+                "name": "Deepali Gupta",
+                "from": "Chitkara University Institute of Engineering and Technology, Chitkara University, Punjab, India"
+            },
+            {
+                "name": "Mudita Uppal",
+                "from": "Chitkara University Institute of Engineering and Technology, Chitkara University, Punjab, India"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Using AI and Natural Language Processing to Enhance Consumer Banking Decision-Making",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICEMPS60684.2024.10559280",
+        "Date of Publication": "18-20 April 2024",
+        "abstract": "This technical summary outlines the use of Artificial Intelligence (AI) and Natural Language Processing (NLP) to beautify patron banking decision-making. AI-based banking systems can autonomously identify patterns in consumer information and generate insights from a number of sources, including but not restricted to purchaser 360 profiles, 1/3-party statistics, and transactional statistics. With the assistance of AI and NLP, this gadget can answer customer questions relating to their banking wishes and offer personalized recommendations. AI-based monetary decision-making systems also permit banks to offer computerized customer service with information on clients' needs, respond speedily to purchaser requests, and offer quick acclaim for loans and other banking merchandise. Moreover, AI and NLP enhance patron engagement via chatbot-like solutions and purchaser sentiment analysis. The extraordinary AI and NLP-based services being presented by using banks are mentioned in this technical abstract. In conclusion, AI and NLP technology are giving banks the capacity to meet the desires of their customers and improve typical purchaser pleasure.",
+        "Published in": "2024 International Conference on E-mobility, Power Control and Smart Systems (ICEMPS)",
+        "Authors": [
+            {
+                "name": "Sheetal Temara",
+                "from": "Dept of Computer & Information Sciences, University of the Cumberlands, Williamsburg, KY, USA"
+            },
+            {
+                "name": "Sagar Varma Samanthapudi",
+                "from": "Applied Data Science, The Polis Center at Indiana University Purdue University Indianapolis, Indianapolis, Indiana, USA"
+            },
+            {
+                "name": "Piyush Rohella",
+                "from": "Payments & Commerce, GoDaddy, Edmonds, Washington, USA"
+            },
+            {
+                "name": "Ketan Gupta",
+                "from": "Dept. of Information Technology, University of The Cumberlands, Williamsburg, KY, USA"
+            },
+            {
+                "name": "Ashokkumar S. R",
+                "from": "Department of Computer and Communication Engineering, Centre for Blockchain and Cyber security, Sri Eshwar College of Engineering, Coimbatore, Tamil Nadu, INDIA"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Schnorr Multi-Signatures with Key Aggregation for Privacy and Verifiable Randomness in Blockchain Cloud",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICEMPS60684.2024.10559311",
+        "Date of Publication": "18-20 April 2024",
+        "abstract": "The absence of privacy and verifiable randomness in blockchain poses security risks such as unauthorized data access and identity theft, especially as the technology gains traction in critical sectors like finance and healthcare. The rapid adoption of blockchain amplifies the urgency to address these vulnerabilities for secure and scalable implementation. This paper confronts the urgent issues of compromised privacy and unverifiable randomness in blockchain systems by introducing the Artificial Intelligence-driven Schnorr Multi-Signature with Key Aggregation (AI-SMKA) approach. This mechanism exhibits a good degree of anonymity and error free key aggregation, desirable for large scale block chain networks. This mechanism is a prospective tool for deployment in sensitive applications towards secured data sharing and digital identity management.",
+        "Published in": "2024 International Conference on E-mobility, Power Control and Smart Systems (ICEMPS)",
+        "Authors": [
+            {
+                "name": "Badugu Ranjith Kumar",
+                "from": "Department of CSE, Noorul Islam Centre for Higher Education, Kanyakumari, Tamilnadu"
+            },
+            {
+                "name": "M. Victor Jose",
+                "from": "CSE, Vel Tech Multi Tech, Dr. Rangarajan Dr. Sakunthala Engineering College (Autonomous), Chennai"
+            },
+            {
+                "name": "J.R. Jeba",
+                "from": "Department of Computer Applications, Noorul Islam Centre for Higher Education, Kanyakumari, Tamilnadu"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "How Robotic Process Automation and Blockchain can Work Together?",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICEMPS60684.2024.10559348",
+        "Date of Publication": "18-20 April 2024",
+        "abstract": "Exploring the complex terrain of RPA and blockchain integration, this paper uncovers the possibility of groundbreaking results in various sectors. Integrating these innovative technologies creates a historical chance to intensify efficiency, ensure data security, and promote visibility across various organizational processes. Although this synergy comes with technical challenges requiring complete solutions, the paper pinpoints primary difficulties with an exhaustive analysis of technology stacks, data standardization, scalability, smart contract integration, privacy, interoperability, change management, evolving skill sets, and cost elements. An in-depth investigation highlights the vital roles of collaboration, innovation, and interdisciplinary expertise in addressing the challenges. This paper offers a holistic perspective on the obstacles and solutions associated with integrating RPA and blockchain, empowering organizations to execute this integration and unlock its groundbreaking potential seamlessly.",
+        "Published in": "2024 International Conference on E-mobility, Power Control and Smart Systems (ICEMPS)",
+        "Authors": [
+            {
+                "name": "Dileep Kumar Yendluri",
+                "from": "University of the Cumberlands, Williamsburg, USA"
+            },
+            {
+                "name": "Jainath Ponnala",
+                "from": "Jawaharlal Technological University, Hyderbad, India"
+            },
+            {
+                "name": "Ramya Thatikonda",
+                "from": "University of the Cumberlands, Williamsburg, USA"
+            },
+            {
+                "name": "M. Kempanna",
+                "from": "Department of Artificial Intelligence and Machine Learning, Bangalore Institute of Technology, Bengaluru, Karnataka, India"
+            },
+            {
+                "name": "Reshmi Tatikonda",
+                "from": "University of the Central Missouri, Warrensburg, USA"
+            },
+            {
+                "name": "A. Bhuvanesh",
+                "from": "Department of Electrical and Electronics Engineering, PSN College of Engineering and Technology, Tirunelveli, Tamil Nadu, India"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Smart Blockchain and AI Empowered Web 3.0",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICEIEC61773.2024.10561833",
+        "Date of Publication": "24-25 May 2024",
+        "abstract": "With the development and continuous iterative innovation of digital technologies represented by highperformance computing, computing power networks, mixed reality, blockchain, digital twins, and new generation AI technologies, especially the generation of AI, human society is entering an intelligent society with \"human-machine-naturerobot-digital human\". The social environment on which human lives is moving from the physical reality space to the digital space where virtual and reality coexist. Web3.0 based on blockchain will open a new era of the next generation Internet revolution with the goal of unique decentralized DAO, decentralized network, data autonomy, and digital assets. This paper first analyzes the evolution and development trend of the Internet, proposes an evolution roadmap and a new perspective from blockchain to Web3.0, analyzes the technical roadmap and Rollup technology for blockchain scaling, explores blockchain AI computing and ZKML technology, and finally presents the new future of AI+blockchain enabling Web3.0.",
+        "Published in": "2024 IEEE 14th International Conference on Electronics Information and Emergency Communication (ICEIEC)",
+        "Authors": [
+            {
+                "name": "Wenzheng Li",
+                "from": "Faculty of Information Technology, Beijing University of Technology, Beijing, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Storage Optimization of Product Traceability System Based on Blockchain",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICEIEC61773.2024.10561764",
+        "Date of Publication": "24-25 May 2024",
+        "abstract": "To address the storage capacity limitations and high costs inherent in the existing single-chain storage model of blockchain-based traceability systems, a strategy combining on-chain and off-chain storage using IPFS as an alternative storage architecture is proposed. The goal is to enhance the storage model while ensuring data storage stability. Storing frequently accessed information off-chain helps alleviate the excessive pressure on the blockchain caused by high-frequency queries, while ensuring the security and immutability of on-chain data. Additionally, IPFS technology expands storage capacity and reduces storage costs through its distributed storage, thereby improving data storage and retrieval efficiency. Experimental validation shows that compared to traditional single-chain traceability models, this storage optimization approach can reduce data storage time by 8.05% and data retrieval time by 30.97%.",
+        "Published in": "2024 IEEE 14th International Conference on Electronics Information and Emergency Communication (ICEIEC)",
+        "Authors": [
+            {
+                "name": "Jiahuan Huang",
+                "from": "School of Computer Science and Engineering, Wuhan Institute of Technology, Wuhan, China"
+            },
+            {
+                "name": "Wei Shen",
+                "from": "School of Computer Science and Engineering, Wuhan Institute of Technology, Wuhan, China"
+            },
+            {
+                "name": "Jie Yu",
+                "from": "School of Computer Science and Engineering, Wuhan Institute of Technology, Wuhan, China"
+            },
+            {
+                "name": "Qiang Liu",
+                "from": "School of Computer Science and Engineering, Wuhan Institute of Technology, Wuhan, China"
+            },
+            {
+                "name": "Tao Hu",
+                "from": "School of Computer Science and Engineering, Wuhan Institute of Technology, Wuhan, China"
+            },
+            {
+                "name": "Jianghao Wei",
+                "from": "School of Computer Science and Engineering, Wuhan Institute of Technology, Wuhan, China"
+            },
+            {
+                "name": "Xiaoqiu Duan",
+                "from": "School of Computer Science and Engineering, Wuhan Institute of Technology, Wuhan, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Verifying and Displaying Move Smart Contract Source Code for the Sui Blockchain",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1145/3639478.3640038",
+        "Date of Publication": "14-20 April 2024",
+        "abstract": "Smart contract development presents additional challenges beyond traditional software workflows, e.g., locally in IDEs. For smart contract developers to understand and trust code execution, they need to write and use software libraries with a comprehensible code representation-i.e., source code. However, blockchains do not typically store the original source code of smart contracts, but a con-densed bytecode representation. Thus, when developers consult smart contract source code, they need to be sure that it corresponds to the same bytecode on the blockchain. Depending on available developer tools, this process can be ad-hoc, cumbersome, or opaque. In this paper we present our design and implementation of a new tool that serves to verify Move smart contract source code against its bytecode representation on the Sui blockchain. We demonstrate the user-facing shift where developers now benefit from seeing source code in their browser instead of bytecode. We further high-light future features and research directions that verified source availability brings to smart contract developer experience.",
+        "Published in": "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+        "Authors": [
+            {
+                "name": "Rijnard Van Tonder",
+                "from": "MystenLabs, Inc., USA"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Technical Briefing on Socio-Technical Grounded Theory for Qualitative Data Analysis",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1145/3639478.3643061",
+        "Date of Publication": "14-20 April 2024",
+        "abstract": "This technical briefing will focus on imparting a good understanding of the nature of qualitative data, relevant collection techniques, and the application of robust and systematic qualitative data analy-sis using socio-technical grounded theory (STGT). It will include hands-on exercises and examples from published studies that have applied STGT for qualitative data analysis in qualitative as well as mixed methods research studies.",
+        "Published in": "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+        "Authors": [
+            {
+                "name": "Rashina Hoda",
+                "from": "Faculty of Information Technology, Monash University, Melbourne, VIC, Australia"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "ParSE: Efficient Detection of Smart Contract Vulnerabilities via Parallel and Simplified Symbolic Execution",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1145/3639478.3643066",
+        "Date of Publication": "14-20 April 2024",
+        "abstract": "Symbolic execution is a frequently used method for vulnerability detection in smart contracts. However, existing tools face limitations with the constraint solving and may cause the \u201cpath explosion\u201d problem. This costs too much time and may lead to False-Negative (FN) of detection results. In this work, we propose ParSE, a novel approach that leverages Parallel and Simplified symbolic Execution to improve both detection efficiency and the number of True-Positive (TP). We inject ParSE into two widely used symbolic execution tools, Oyente and Mythril, for detecting vulnerabilities in smart contracts. Experimental results show that ParSE accelerates to 9.33x and 5.30x for Oyente and Mythril, respectively. Moreover, tools based on ParSE improve the detection number of TP.",
+        "Published in": "2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+        "Authors": [
+            {
+                "name": "Long He",
+                "from": "Yantai University, Yantai, China"
+            },
+            {
+                "name": "Xiangfu Zhao",
+                "from": "Yantai University, Yantai, China"
+            },
+            {
+                "name": "Yichen Wang",
+                "from": "Yantai University, Yantai, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "What Goes Up\u2026\u2026: modelling the Bitcoin rollercoaster ride",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ELEKTRO60337.2024.10557119",
+        "Date of Publication": "20-22 May 2024",
+        "abstract": "Cryptocurrencies have attracted increasing attention worldwide. Cryptocurrency assets are likely to remain a viable choice for the public in long term. In this paper, the modelling of cryptocurrency price is explored in Bitcoin bubbles prior to and during the COVID-19 pandemic. As shown here, it is necessary and possible to understand the dynamics in plausible proxy variables. A similar methodology could be deployed in other situations where market bubbles occur.",
+        "Published in": "2024 ELEKTRO (ELEKTRO)",
+        "Authors": [
+            {
+                "name": "Yang Li",
+                "from": "Department of Computer Science and Digital Technologies, University of East London, London, UK"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "On the Taxonomy of Developers\u2019 Discussion Topics with ChatGPT",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "",
+        "Date of Publication": "15-16 April 2024",
+        "abstract": "Large language models (LLMs) like ChatGPT can generate text for various prompts. With exceptional reasoning capabilities, ChatGPT (particularly the GPT-4 model) has achieved widespread adoption across many tasks - from creative writing to domain-specific inquiries, code generation, and more. This research analyzed the DevGPT dataset to determine common topics posed by developers interacting with ChatGPT. The DevGPT dataset comprises ChatGPT interactions from GitHub issues, pull requests and discussions. By employing a mixed-methods approach combining unsupervised semantic modeling and expert qualitative analysis we categorize the topics developers discuss when interacting with ChatGPT.Our approach reveals 17 topics within seven categories, with over 25% of prompts focused on advanced programming guidance. Additional areas of significant query volume include DevOps workflows, SQL, databases, and specialized domains, such as localization, streaming media, and image processing. This research effectively illuminates core topics and dependencies that motivate developers to leverage ChatGPT. The taxonomy classification further clarifies critical areas to better customize AI tools for aligning with workflows and needs within software engineering contexts.CCS CONCEPTS\u2022 Software and its engineering \u2192 Programming teams.",
+        "Published in": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+        "Authors": [
+            {
+                "name": "Ertugrul Sagdic",
+                "from": "Lamar University, Beaumont, Texas, USA"
+            },
+            {
+                "name": "Arda Bayram",
+                "from": "Lamar University, Beaumont, Texas, USA"
+            },
+            {
+                "name": "Md Rakibul Islam",
+                "from": "Lamar University, Beaumont, Texas, USA"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "A Large-Scale Empirical Study of Open Source License Usage: Practices and Challenges",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "",
+        "Date of Publication": "15-16 April 2024",
+        "abstract": "The popularity of open source software (OSS) has led to a significant increase in the number of available licenses, each with their own set of terms and conditions. This proliferation of licenses has made it increasingly challenging for developers to select an appropriate license for their projects and to ensure that they are complying with the terms of those licenses. As a result, there is a need for empirical studies to identify current practices and challenges in license usage, both to help developers make informed decisions about license selection and to ensure that OSS is being used and distributed in a legal and ethical manner. Moreover, the development of new licenses might be required to better meet the needs of the open source community and address emerging legal issues.In this paper, we conduct a large-scale empirical study of license usage across five package management platforms, i.e., Maven, NPM, PyPI, RubyGems, and Cargo. Our objective is to examine the current trends and potential issues in license usage of the OSS community. In total, we analyze the licenses of 33,710,877 packages across the selected five platforms. We statistically analyze licenses in package management platforms from multiple perspectives, e.g., license usage, license incompatibility, license updates, and license evolution. Moreover, we conduct a comparative study of various aspects of core packages and common packages in these platforms. Our results reveal irregularities in license names and license incompatibilities that require attention. We observe both similarities and differences in license usage across the five platforms, with Cargo being the most standardized among them. Finally, we discuss some implications for actions based on our findings.",
+        "Published in": "2024 IEEE/ACM 21st International Conference on Mining Software Repositories (MSR)",
+        "Authors": [
+            {
+                "name": "Jiaqi Wu",
+                "from": "The State Key Laboratory of Blockchain and Data Security, Zhejiang University, Hangzhou, China"
+            },
+            {
+                "name": "Lingfeng Bao",
+                "from": "The State Key Laboratory of Blockchain and Data Security, Zhejiang University, Hangzhou, China"
+            },
+            {
+                "name": "Xiaohu Yang",
+                "from": "The State Key Laboratory of Blockchain and Data Security, Zhejiang University, Hangzhou, China"
+            },
+            {
+                "name": "Xin Xia",
+                "from": "Huawei, China"
+            },
+            {
+                "name": "Xing Hu",
+                "from": "The State Key Laboratory of Blockchain and Data Security, Zhejiang University, Hangzhou, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Smart Supply Chain: A Lever for Strategic Excellence",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICCAD60883.2024.10553849",
+        "Date of Publication": "15-17 May 2024",
+        "abstract": "The digitalization of the supply chain represents a source of competitive advantage, involving the methodology of digitization and automation of flows through the utilization of new technologies such as artificial intelligence, big data, IoT, and blockchain to ensure performance. Indeed, \"The benefits of digitalizing the supply chain are numerous, including flexibility and responsiveness of the chain, cost minimization, enhancement of operational efficiency, reduction of errors and delays in processes, improvement of product visibility and traceability, data security, and enhancement of customer experience.\" However, the digitalization of the supply chain contributes to both strategic and operational excellence. Despite its crucial importance for competitiveness, there is a lack of experts capable of implementing Smart Supply Chains and intelligent technologies within the supply chain. Therefore, this article will address the advantages and implications of adopting intelligent technologies in supply chain management. The main objective of this research is to analyze the mediating effect of operational and strategic levers of Smart Supply Chain and intelligent technologies on supply chain performance. This perspective explores an innovative approach to assessing the performance of a Smart Supply Chain using the PROMETHEE II method (Elimination and Choice Translating Reality).",
+        "Published in": "2024 International Conference on Control, Automation and Diagnosis (ICCAD)",
+        "Authors": [
+            {
+                "name": "Saoussen Ben Ammar",
+                "from": "Department of Logistic, Higher Institute of Transport and Logistics, University of Sousse, Tunisia"
+            },
+            {
+                "name": "Hana Mosbahi",
+                "from": "Department of Transport Technology and Engineering, Higher Institute of Transport and Logistics, University of Sousse"
+            },
+            {
+                "name": "Takwa Aissaoui",
+                "from": "Higher Institute of Transport and Logistics, University of Sousse, Tunisia"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Research on the Application of Microservices in Command Information Systems",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/ICAACE61206.2024.10549298",
+        "Date of Publication": "01-03 March 2024",
+        "abstract": "With the rapid development of science and technology, new technologies represented by big data, cloud computing, and artificial intelligence have had a profound impact on the military field, especially command information systems. The traditional architecture of command information systems has problems such as insufficient scalability, unstable performance, complex deployment, and low fault tolerance, which can no longer meet the requirements of new combat styles. Micro service architecture, with its controllable complexity, flexible technology selection, high fault tolerance, and scalability, provides ideas for the transformation and upgrading of command information systems. This article analyzes the gaps and shortcomings of current command information systems, combines the characteristics and advantages of microservices architecture, explores the design and implementation of microservices in command information systems, and puts forward some suggestions and prospects.",
+        "Published in": "2024 7th International Conference on Advanced Algorithms and Control Engineering (ICAACE)",
+        "Authors": [
+            {
+                "name": "Mingchao Han",
+                "from": "System Engineering Research Institute of the Academy of Military Sciences, Beijing, China"
+            },
+            {
+                "name": "Jie Zhang",
+                "from": "System Engineering Research Institute of the Academy of Military Sciences, Beijing, China"
+            },
+            {
+                "name": "Fuxue Wang",
+                "from": "System Engineering Research Institute of the Academy of Military Sciences, Beijing, China"
+            },
+            {
+                "name": "Rui Yan",
+                "from": "93118 PLA troops, Beijing, China"
+            },
+            {
+                "name": "Yangyang Wang",
+                "from": "System Engineering Research Institute of the Academy of Military Sciences, Beijing, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Enhancing Academic Credentials: The Synergy of Blockchain and Artificial Intelligence",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/BalkanCom61808.2024.10557185",
+        "Date of Publication": "03-06 June 2024",
+        "abstract": "The integration of Artificial Intelligence (AI) and blockchain technology (BT) into diploma generation and verification systems enables the digitalization of services in higher education institutions (HEI). These technologies have the potential to prevent misuse, protect identity and privacy, decentralize services, and automate processes. AI employs advanced pattern recognition and anomaly detection algorithms to ensure the integrity of academic certificates stored on the blockchain. By using smart contracts on the blockchain, artificial intelligence algorithms may automate and optimize the verification process, thereby diminishing the administrative load linked to validating academic qualifications. This review paper provides insights into how AI-driven algorithms can streamline the generation of digital diplomas, enhance authentication mechanisms, and mitigate fraudulent activities. Additionally, it highlights the potential of AI-powered analytics for optimizing blockchain-based systems, facilitating seamless interoperability, and ensuring trustworthiness in academic credential verification.",
+        "Published in": "2024 7th International Balkan Conference on Communications and Networking (BalkanCom)",
+        "Authors": [
+            {
+                "name": "Avni Rustemi",
+                "from": "Faculty of Electrical Engineering and Information Technology, Ss. Cyril and Methodius University, Skopje, N. Macedonia"
+            },
+            {
+                "name": "Fisnik Dalipi",
+                "from": "Department of Informatics, Faculty of Technology Linnaeus University, Kalmar, Sweden"
+            },
+            {
+                "name": "Vladimir Atanasovski",
+                "from": "Faculty of Electrical Engineering and Information Technologies, Ss. Cyril and Methodius University in Skopje, Skopje, N. Macedonia"
+            },
+            {
+                "name": "Aleksandar Risteski",
+                "from": "Faculty of Electrical Engineering and Information Technologies, Ss. Cyril and Methodius University in Skopje, Skopje, N. Macedonia"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "STAMP: Blockchain and DAO-based Student Attendance Management Platform",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/BalkanCom61808.2024.10557210",
+        "Date of Publication": "03-06 June 2024",
+        "abstract": "Optimizing administrative functions and enhancing the learning experience are ongoing priorities in education. Modernizing student attendance methods is critical for gauging student engagement and academic success. The traditional attendance systems face various challenges ranging from labor-intensive processes to security and privacy concerns. To address these challenges, we propose a blockchain and Decentralized Autonomous Organization (DAO)-based STudent Attendance Management Platform (STAMP). Leveraging blockchain and DAO principles, we establish a decentralized validation and governance mechanism, incentivizing accurate reporting and transferring attendance tracking responsibility from educators to students. Through Proof of Concept (PoC) implementation, we showcase the practical applicability of the proposed system.",
+        "Published in": "2024 7th International Balkan Conference on Communications and Networking (BalkanCom)",
+        "Authors": [
+            {
+                "name": "Mubashar Iqbal",
+                "from": "Institute of Computer Science, University of Tartu, Tartu, Estonia"
+            },
+            {
+                "name": "Henry Marie Mont",
+                "from": "Institute of Computer Science, University of Tartu, Tartu, Estonia"
+            },
+            {
+                "name": "Raimundas Matulevi\u010dius",
+                "from": "Institute of Computer Science, University of Tartu, Tartu, Estonia"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Stochastic analysis and cryptography as key pillars for micro-credentials skills for Bitcoin\u2019s Basic Knowledge",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/BalkanCom61808.2024.10557189",
+        "Date of Publication": "03-06 June 2024",
+        "abstract": "The subject of this article is the development, study, and application of instructional models for the optimal design and control of an organized Bitcoin-related curriculum. The pedagogical observations of the analysis of this article are integrated into an active analytical teaching and learning perspective that combines the multiple knowledge bases of cryptocurrencies and includes elements of stochastic analysis and cryptography linked to micro-credentials. The present proposal as an applied teaching model is part of the perspective of the CHAISE course, which comprises learning modules. The CHAISE Blockchain teaching scenario accommodates the skills and knowledge needed for professional profiles, Blockchain Developers, Blockchain Architects, and Blockchain Managers. In addition to educational models for the optimal design and control of organized Bitcoin-related curricula, strategic visions for the potential and sustainability of monetary diversity are developed, studied, and implemented with emphasis on the technical part of the teaching plan and schedule. In this paper, we describe the methodological motivation of the curriculum for teaching the underlying Bitcoin technologies. The paper is interdisciplinary and education-oriented, and it addresses the institutional framework for blockchain establishment and inclusion in education structures.",
+        "Published in": "2024 7th International Balkan Conference on Communications and Networking (BalkanCom)",
+        "Authors": [
+            {
+                "name": "Dimitrios Kiriakos",
+                "from": "Department of Business Administration, The University of West Attica, Attika, Athens, Greece"
+            },
+            {
+                "name": "Dimitrios Kotsifakos",
+                "from": "Department of Informatics, University of Piraeus, Piraeus, Greece"
+            },
+            {
+                "name": "Parisa Ghodous",
+                "from": "Computer Science Department, Professional Master CCI, University of Lyon I"
+            },
+            {
+                "name": "Matev\u017e Pusti\u0161ek",
+                "from": "Faculty of Electrical Engineering, University of Ljubljana, Ljubljana, Slovenia"
+            },
+            {
+                "name": "Paraskevi Kotsifakou",
+                "from": "Department of Mathematics, National and Kapodistrian University of Athens, Athens"
+            },
+            {
+                "name": "Yannis Psaromiligkos",
+                "from": "Department of Business Administration, The University of West Attica, Attika, Athens, Greece"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Stop Pulling my Rug: Exposing Rug Pull Risks in Crypto Token to Investors",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1145/3639477.3639722",
+        "Date of Publication": "14-20 April 2024",
+        "abstract": "Crypto token is a digital asset used in blockchain-based decentralized applications. Today, tokens have attracted many investors and collected a large amount of money. Unfortunately, the booming token market has simultaneously spawned numerous fraudulent schemes. Rug pull is one of the well-known scams, where fraudulent developers lure investors into seemingly profitable projects and then run off with their money, leaving the investors with worthless assets. To prevent future losses, researchers in both industry and academia have attempted to expose rug pull risks in advance. However, rug pull can manifest in various scenarios during the transfer process, posing significant challenges for effective detection. In this paper, we first conduct an in-depth study of 201 real-world rug pull incidents for their root causes, and summarize 4 common types of rug pull risks. Then, we establish a component-configurable transfer model to locate and analyze the transfer process in token contracts. Based on the model, we generate effective oracles for the 4 rug pull risks, which can overcome the interference of diverse implementation structures. We propose Tokeer, a token verification tool that implements the transfer model and oracles with datalog technique to expose rug pull risks hidden in token contracts. We apply Tokeer on real-world tokens and compare it with state-of-the-art tools: the commercial tool GoPlus and the academic tool Pied-Piper. Tokeer achieves an average of 98.0% recall and 98.9% precision, and successfully detects 27.2% more real rug pull risks in wild production, significantly outperforming the state-of-the-art tools in terms of detection accuracy and effectiveness.",
+        "Published in": "2024 IEEE/ACM 46th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)",
+        "Authors": [
+            {
+                "name": "Yuanhang Zhou",
+                "from": "BNRist, Tsinghua University, Beijing, China"
+            },
+            {
+                "name": "Jingxuan Sun",
+                "from": "Beijing University of Posts and Telecommunications, Beijing, China"
+            },
+            {
+                "name": "Fuchen Ma",
+                "from": "BNRist, Tsinghua University, Beijing, China"
+            },
+            {
+                "name": "Yuanliang Chen",
+                "from": "BNRist, Tsinghua University, Beijing, China"
+            },
+            {
+                "name": "Zhen Yan",
+                "from": "BNRist, Tsinghua University, Beijing, China"
+            },
+            {
+                "name": "Yu Jiang",
+                "from": "BNRist, Tsinghua University, Beijing, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "",
+        "DOI": "",
+        "Date of Publication": "15-16 April 2024",
+        "abstract": "",
+        "Published in": "",
+        "Authors": [],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "",
+        "DOI": "",
+        "Date of Publication": "15-16 April 2024",
+        "abstract": "",
+        "Published in": "",
+        "Authors": [],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "LinguaChain: a Peer-to-peer Dynamic Decentralized Large Language Model with Coin-based Incentives",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/SCM62608.2024.10554241",
+        "Date of Publication": "22-24 May 2024",
+        "abstract": "This research work introduces an innovative architecture concept, fusing the potential of large language models and blockchain technology, to deploy a decentralized LLM platform. The hallmark of the proposed architecture is its ability to efficiently process and analyze language data, relying on distributed computational resources and data contributions from end-users. The model of incentivizing network participants with cryptocurrency rewards allows for scalable learning while ensuring privacy and protection from centralized bias. The project has laid the foundation for the development of a sustainable and secure artificial intelligence environment, overcoming the challenges of traditional approaches to natural language processing.",
+        "Published in": "2024 XXVII International Conference on Soft Computing and Measurements (SCM)",
+        "Authors": [
+            {
+                "name": "Nikita V. Kozgunov",
+                "from": "Saint Petersburg State University, Saint Petersburg, Russia"
+            },
+            {
+                "name": "Mohammad Hossein Khalashi",
+                "from": "Saint Petersburg State University, Saint Petersburg, Russia"
+            },
+            {
+                "name": "Valerij D. Oliseenko",
+                "from": "St. Petersburg Federal Research Center of the Russian Academy of Sciences, Saint Petersburg, Russia"
+            },
+            {
+                "name": "Tat\u2019Jana V. Tulupyeva",
+                "from": "St. Petersburg Federal Research Center of the Russian Academy of Sciences; NWIM RANEPA, Saint Petersburg, Russia"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "SCeFSTA: Smart Contract enabled Fair, Secure, and Transparent Auction for Healthcare Transportation",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/SysCon61195.2024.10553424",
+        "Date of Publication": "15-18 April 2024",
+        "abstract": "The healthcare transport sector has progressed considerably in recent years, yet it continues to face persistent challenges such as payment, staffing, record redundancy, and resource waste. This paper proposes a blockchain-based auction system called Smart Contract enabled Fair, Secure, and Transparent Auction (SCeFSTA) that aims to address these problems and provide fair competition for healthcare transportation. SCeFSTA employs blockchain technology to create a transparent and secure auction-based platform that provides secure, immediate payment for services and promotes competition. It allows healthcare transportation providers to bid for services, ensuring that only cost-effective providers are selected. The smart contract ensures payments are made upon service completion, enhancing security for patients and providers. We follow a design science research approach to design the system after interviewing several key stakeholders in the healthcare transportation community. The blockchain-based data ledger reduces redundancy and waste while providing enhanced privacy and security. SCeFSTA has the potential to benefit the healthcare transportation field by creating a fair and efficient system that improves performance. We demonstrated the prototype to the first responder community, who understood the effectiveness. Through a series of rigorous system evaluations, we demonstrate that the proposed system could be deployed to healthcare transportation such as ambulance hire, and inter-facility patient transfer.",
+        "Published in": "2024 IEEE International Systems Conference (SysCon)",
+        "Authors": [
+            {
+                "name": "Suman Bunia",
+                "from": "Department of Computer Science and Software Engineering, Miami University, Oxford, Ohio, USA"
+            },
+            {
+                "name": "Owen Campbell",
+                "from": "Department of Computer Science and Software Engineering, Miami University, Oxford, Ohio, USA"
+            },
+            {
+                "name": "Arthur Carvalho",
+                "from": "Farmer School of Business, Miami University, Oxford, Ohio, USA"
+            },
+            {
+                "name": "Vamsi Alluri",
+                "from": "Freelance Blockchain Protocol Architect, North Carolina, USA"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Encblock: Enclave and Blockchain-enabled Secure Data Sharing and Computing for Power Grids",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/SysCon61195.2024.10553589",
+        "Date of Publication": "15-18 April 2024",
+        "abstract": "Data sharing and computing are integral aspects of modern power grid networks. It involves the transmission of information about electricity generation, consumption, transmission, and distribution, and should be operated in an efficient and secure way. Traditional approaches conduct mutual authentication and authorization among networks. The interoperability is an issue with the increase of network interconnectivity and complexity of grid data. The paper addresses this issue by introducing a secure data sharing and computing approach that leverages enclaves and blockchain technology, referred to as Encblock. Encblock has a unique design to achieve an enclave-based trusted and confidential SGX computing environment. It is built up with a Dynamic Distribution System (DDS) Pub/Sub (Publisher/Subscriber) middleware and power grid common data model for data compatibility and flexibility for data sharing. A remote attestation protocol is developed to maintain the enclave integrity and authenticity with the external Intel attestation server. Meanwhile, the attestation and data computing results can be securely managed in a blockchain to support various power grid businesses. Substantial experiments are conducted with the data simulations to verify the Encblock performance such as remote attestation latency and the blockchain data transaction capability.",
+        "Published in": "2024 IEEE International Systems Conference (SysCon)",
+        "Authors": [
+            {
+                "name": "Derock Xie",
+                "from": "Kentucky Country Day School, Louisville, KY, US"
+            },
+            {
+                "name": "Anup Kumar",
+                "from": "University of Louisville, Louisville, KY, US"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "BotNet-Inspired HTTP-Based DDoS Attack Prevention Using Supervised Machine Learning Algorithms in Internet of Things Devices",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1109/SysCon61195.2024.10553501",
+        "Date of Publication": "15-18 April 2024",
+        "abstract": "DDoS attacks have emerged as the most serious Internet risks, causing significant damage to businesses and governments. This study utilized the BoT-IoT dataset obtained from the University of New South Wales (UNSW) website on machine learning (ML) algorithms to prevent HTTP-based DDoS attacks in the Internet of Things environment. Character encoding was performed to convert the strings such as DDoS attack to 1 and Non-malicious to 0. Feature scaling and normalization were carried out to normalize numerical data with large values using a Python module called standard scaler to avoid model overfitting or underfitting. According to the performance evaluation metrics results, decision tree is the best model with 99.96% accuracy, 0.9979 R 2 , 0.0003 MAE, 0.0003 MSE, 0.0195 RMSE, 1.0 precision, 0.9994 recall, 0.9997 F1_score after dimensionality reduction. After comparing various ML models, this study concludes that the decision tree is the golden model for HTTP-based DDoS attack prevention in IoT devices. The study recommends the utilization of other performance evaluation metrics such as Matthew Correlation Coefficient (MCC), Kappa Statistic and Huber loss for further studies to avoid bias and subjectivity in the model selection where there are surrogate models. Also, deep learning paradigms can be implemented for the prevention of HTTP-based DDoS attacks in cloud environments.",
+        "Published in": "2024 IEEE International Systems Conference (SysCon)",
+        "Authors": [
+            {
+                "name": "Jide Ebenezer Taiwo Akinsola",
+                "from": "Department of Computer Sciences, First Technical University, Ibadan, Nigeria"
+            },
+            {
+                "name": "Sunday Adeola Ajagbe",
+                "from": "Department of Computer Science, University of Zululand, Kwadlangezwa, South Africa"
+            },
+            {
+                "name": "Azeezat Oluwayemisi Lawal",
+                "from": "Department of Computer Sciences, First Technical University, Ibadan, Nigeria"
+            },
+            {
+                "name": "Emmanuel Ajayi Olajubu",
+                "from": "Department of Computer Science and Engineering, Obafemi Awolowo University, Ile\u2013Ife, Nigeria"
+            },
+            {
+                "name": "Ganiyu Adesola Aderounmu",
+                "from": "Department of Computer Science and Engineering, Obafemi Awolowo University, Ile\u2013Ife, Nigeria"
+            },
+            {
+                "name": "Matthew Olusegun Adigun",
+                "from": "Department of Computer Science, University of Zululand, Kwadlangezwa, South Africa"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "",
+        "DOI": "",
+        "Date of Publication": "14-20 April 2024",
+        "abstract": "",
+        "Published in": "",
+        "Authors": [],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "SCVHUNTER: Smart Contract Vulnerability Detection Based on Heterogeneous Graph Attention Network",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "",
+        "Date of Publication": "14-20 April 2024",
+        "abstract": "Smart contracts are integral to blockchain's growth, but their vulnerabilities pose a significant threat. Traditional vulnerability detection methods rely heavily on expert-defined complex rules that are labor-intensive and difficult to adapt to the explosive expansion of smart contracts. Some recent studies of neural network-based vulnerability detection also have room for improvement. Therefore, we propose SCVHUNTER, an extensible framework for smart contract vulnerability detection. Specifically, SCVHUNTER designs a heterogeneous semantic graph construction phase based on intermediate representations and a vulnerability detection phase based on a heterogeneous graph attention network for smart contracts. In particular, SCVHUNTER allows users to freely point out more important nodes in the graph, leveraging expert knowledge in a simpler way to aid the automatic capture of more information related to vulnerabilities. We tested SCVHUNTER on reentrancy, block info dependency, nested call, and transaction state dependency vulnerabilities. Results show remarkable performance, with accuracies of 93.72%, 91.07%, 85.41%, and 87.37% for these vulnerabilities, surpassing previous methods.",
+        "Published in": "2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)",
+        "Authors": [
+            {
+                "name": "Feng Luo",
+                "from": "University of Electronic Science and Technology of China The Hong Kong Polytechnic University"
+            },
+            {
+                "name": "Ruijie Luo",
+                "from": "University of Electronic Science and Technology of China"
+            },
+            {
+                "name": "Ting Chen",
+                "from": "University of Electronic Science and Technology of China"
+            },
+            {
+                "name": "Ao Qiao",
+                "from": "University of Electronic Science and Technology of China"
+            },
+            {
+                "name": "Zheyuan He",
+                "from": "University of Electronic Science and Technology of China"
+            },
+            {
+                "name": "Shuwei Song",
+                "from": "University of Electronic Science and Technology of China"
+            },
+            {
+                "name": "Yu Jiang",
+                "from": "Tsinghua university"
+            },
+            {
+                "name": "Sixing Li",
+                "from": "University of Electronic Science and Technology of China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Pre-training by Predicting Program Dependencies for Vulnerability Analysis Tasks",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "",
+        "Date of Publication": "14-20 April 2024",
+        "abstract": "Vulnerability analysis is crucial for software security. Inspired by the success of pre-trained models on software engineering tasks, this work focuses on using pre-training techniques to enhance the understanding of vulnerable code and boost vulnerability analysis. The code understanding ability of a pre-trained model is highly related to its pre-training objectives. The semantic structure, e.g., control and data dependencies, of code is important for vulnerability analysis. However, existing pre-training objectives either ignore such structure or focus on learning to use it. The feasibility and benefits of learning the knowledge of analyzing semantic structure have not been investigated. To this end, this work proposes two novel pre-training objectives, namely Control Dependency Prediction (CDP) and Data Dependency Prediction (DDP), which aim to predict the statement-level control dependencies and token-level data dependencies, respectively, in a code snippet only based on its source code. During pre-training, CDP and DDP can guide the model to learn the knowledge required for analyzing fine-grained dependencies in code. After pre-training, the pre-trained model can boost the understanding of vulnerable code during fine-tuning and can directly be used to perform dependence analysis for both partial and complete functions. To demonstrate the benefits of our pre-training objectives, we pre-train a Transformer model named PDBERT with CDP and DDP, fine-tune it on three vulnerability analysis tasks, i.e., vulnerability detection, vulnerability classification, and vulnerability assessment, and also evaluate it on program dependence analysis. Experimental results show that PDBERT benefits from CDP and DDP, leading to state-of-the-art performance on the three downstream tasks. Also, PDBERT achieves F1-scores of over 99% and 94% for predicting control and data dependencies, respectively, in partial and complete functions.",
+        "Published in": "2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)",
+        "Authors": [
+            {
+                "name": "Zhongxin Liu",
+                "from": "The State Key Laboratory of Blockchain and Data Security, Zhejiang University, China"
+            },
+            {
+                "name": "Zhijie Tang",
+                "from": "Zhejiang University, China"
+            },
+            {
+                "name": "Junwei Zhang",
+                "from": "Zhejiang University, China"
+            },
+            {
+                "name": "Xin Xia",
+                "from": "Huawei, China"
+            },
+            {
+                "name": "Xiaohu Yang",
+                "from": "The State Key Laboratory of Blockchain and Data Security, Zhejiang University, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Are We There Yet? Unraveling the State-of-the-Art Smart Contract Fuzzers",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1145/3597503.3639152",
+        "Date of Publication": "14-20 April 2024",
+        "abstract": "Given the growing importance of smart contracts in various applications, ensuring their security and reliability is critical. Fuzzing, an effective vulnerability detection technique, has recently been widely applied to smart contracts. Despite numerous studies, a systematic investigation of smart contract fuzzing techniques remains lacking. In this paper, we fill this gap by: 1) providing a comprehensive review of current research in contract fuzzing, and 2) conducting an in-depth empirical study to evaluate state-of-the-art contract fuzzers' usability. To guarantee a fair evaluation, we employ a carefully-labeled benchmark and introduce a set of pragmatic performance metrics, evaluating fuzzers from five complementary perspectives. Based on our findings, we provide direction for the future research and development of contract fuzzers.",
+        "Published in": "2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)",
+        "Authors": [
+            {
+                "name": "Shuohan Wu",
+                "from": "The Hong Kong Polytechnic University, Hong Kong, China"
+            },
+            {
+                "name": "Zihao Li",
+                "from": "The Hong Kong Polytechnic University, Hong Kong, China"
+            },
+            {
+                "name": "Luyi Yan",
+                "from": "The Hong Kong Polytechnic University, Hong Kong, China"
+            },
+            {
+                "name": "Weimin Chen",
+                "from": "The Hong Kong Polytechnic University, Hong Kong, China"
+            },
+            {
+                "name": "Muhui Jiang",
+                "from": "The Hong Kong Polytechnic University, Hong Kong, China"
+            },
+            {
+                "name": "Chenxu Wang",
+                "from": "Xi\u2019 an Jiaotong University, Xi'an, China"
+            },
+            {
+                "name": "Xiapu Luo",
+                "from": "The Hong Kong Polytechnic University, Hong Kong, China"
+            },
+            {
+                "name": "Hao Zhou",
+                "from": "The Hong Kong Polytechnic University, Hong Kong, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "Revealing Hidden Threats: An Empirical Study of Library Misuse in Smart Contracts",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1145/3597503.3623335",
+        "Date of Publication": "14-20 April 2024",
+        "abstract": "Smart contracts are Turing-complete programs that execute on the blockchain. Developers can implement complex contracts, such as auctions and lending, on Ethereum using the Solidity programming language. As an object-oriented language, Solidity provides libraries within its syntax to facilitate code reusability and reduce development complexity. Library misuse refers to the incorrect writing or usage of libraries, resulting in unexpected results, such as introducing vulnerabilities during library development or incorporating an unsafe library during contract development. Library misuse could lead to contract defects that cause financial losses. Currently, there is a lack of research on library misuse. To fill this gap, we collected more than 500 audit reports from the official websites of five audit companies and 223,336 real-world smart contracts from Etherscan to measure library popularity and library misuse. Then, we defined eight general patterns for library misuse; three of them occurring during library development and five during library utilization, which covers the entire library lifecycle. To validate the practicality of these patterns, we manually analyzed 1,018 realworld smart contracts and publicized our dataset. We identified 905 misuse cases across 456 contracts, indicating that library misuse is a widespread issue. Three patterns of misuse are found in more than 50 contracts, primarily due to developers lacking security awareness or underestimating negative impacts. Additionally, our research revealed that vulnerable libraries on Ethereum continue to be employed even after they have been deprecated or patched. Our findings can assist contract developers in preventing library misuse and ensuring the safe use of libraries.",
+        "Published in": "2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)",
+        "Authors": [
+            {
+                "name": "Mingyuan Huang",
+                "from": "Sun Yat-Sen University, China"
+            },
+            {
+                "name": "Jiachi Chen",
+                "from": "Sun Yat-Sen University, China"
+            },
+            {
+                "name": "Zigui Jiang",
+                "from": "Sun Yat-Sen University, China"
+            },
+            {
+                "name": "Zibin Zheng",
+                "from": "Sun Yat-Sen University, China"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "CSCHECKER: Revisiting GDPR and CCPA Compliance of Cookie Banners on the Web",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "IEEE",
+        "DOI": "10.1145/3597503.3639159",
+        "Date of Publication": "14-20 April 2024",
+        "abstract": "Privacy regulations like GDPR and CCPA have greatly affected online advertising and tracking strategies. To comply with the regulations, websites need to display consent management UIs (i.e., cookie banners) implemented under the corresponding technical frameworks, allowing users to specify consents regarding their personal data processing. Although prior works have investigated the cookie banner compliance problems with GDPR, the technical specification has significantly changed. The compliance status under the latest framework remains unclear. There also lacks a systematic study of CCPA banner compliance. More importantly, most work have focused on detecting the regulation violations, whereas little is known about the possible culprits and causes. In this paper, we develop CSCHECKER, a browser-based tool that monitors and records consent strings on websites. We use CSCHECKER to analyze the GDPR and CCPA cookie banners, and reveal previously unknown compliance problems under both frame-works. We also discover and analyze possible miscreants leading to the violations, e.g., consent management providers that return wrong consent data. The comparison of the two frameworks inspires several suggestions about the design of cookie banners, the implementation of opt-out mechanisms, and the enforcement of user consent choices.",
+        "Published in": "2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)",
+        "Authors": [
+            {
+                "name": "Mingxue Zhang",
+                "from": "The State Key Laboratory of Blockchain and Data Security, Zhejiang University"
+            },
+            {
+                "name": "Wei Meng",
+                "from": "The Chinese University of Hong Kong"
+            },
+            {
+                "name": "You Zhou",
+                "from": "The State Key Laboratory of Blockchain and Data Security, Zhejiang University"
+            },
+            {
+                "name": "Kui Ren",
+                "from": "The State Key Laboratory of Blockchain and Data Security, Zhejiang University"
+            }
+        ],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    },
+    {
+        "title": "",
+        "pages": 0,
+        "Cites in Papers": 0,
+        "Cites in Patent": 0,
+        "Full Text Views": 0,
+        "Publisher": "",
+        "DOI": "",
+        "Date of Publication": "14-20 April 2024",
+        "abstract": "",
+        "Published in": "",
+        "Authors": [],
+        "IEEE Keywords": [],
+        "Author Keywords": []
+    }
+]
