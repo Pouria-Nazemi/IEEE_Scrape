@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 import json
-
+import os
 
 
 def extract_article_details(article_link):
@@ -198,7 +198,10 @@ def scrape_ieee_xplore(driver):
         next_button = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, next_button_sel)))
         next_button.click()
 
-    with open(f'ieee_articles_{search_topic}.json', 'w') as f:
+    if not os.path.exists('data'):
+        os.makedirs('data')
+    
+    with open(f'data/ieee_articles_{search_topic}_Relevance.json', 'w') as f:
         json.dump(articles_data, f, indent=4)
 
 
@@ -211,5 +214,3 @@ if __name__ == "__main__":
         print(f'Error: {e}')
     finally:
         driver.quit()
-
-
