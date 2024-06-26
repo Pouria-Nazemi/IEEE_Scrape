@@ -13,18 +13,6 @@ def extract_article_details(article_link):
     driver = webdriver.Chrome()
     driver.get(article_link)
 
-    # try:
-    #     accept_button_xpath = '/html/body/div[1]/div[2]/div[2]/button[2]'
-    #     WebDriverWait(driver, 7).until(EC.visibility_of_element_located((By.XPATH, accept_button_xpath))).click()
-    # except:
-    #     pass
-
-    # try:
-    #     close_button_xpath = '/html/body/div[1]/div[2]/div[2]/button'
-    #     WebDriverWait(driver, 7).until(EC.visibility_of_element_located((By.XPATH, close_button_xpath))).click()
-    # except:
-    #     pass
-
     title = ''
     pages = 0
     cites_papers = 0
@@ -103,7 +91,7 @@ def extract_article_details(article_link):
         authors = WebDriverWait(driver, 5).until(EC.visibility_of_all_elements_located((By.CLASS_NAME, 'authors-accordion-container')))
 
         for i in range(len(authors)):
-            author_name_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[1]/div[2]/div[' + str(i+1) + ']/xpl-author-item/div/div[1]/div/div[1]/xpl-modal/a/span'
+            author_name_xpath = author_name_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[1]/div[2]/div[' + str(i+1) + ']/xpl-author-item/div/div[1]/div/div[1]/xpl-modal/a/span'
             author_name = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.XPATH, author_name_xpath))).text
 
             author_from_xpath = '/html/body/div[5]/div/div/div[3]/div/xpl-root/main/div/xpl-document-details/div/div[1]/div/div[2]/section/div[2]/xpl-accordian-section/div/xpl-document-accordion/div[1]/div[2]/div[' + str(i+1) + ']/xpl-author-item/div/div[1]/div/div[2]/div'
